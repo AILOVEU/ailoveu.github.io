@@ -60,7 +60,7 @@
       <link href="/2019/12/22/dyjt-lmdtz/"/>
       <url>/2019/12/22/dyjt-lmdtz/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://imgchr.com/i/Qx2MB8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx2MB8.md.jpg" alt="Qx2MB8.md.jpg"></a></p><p><a href="https://imgchr.com/i/Qx2QHS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx2QHS.md.png" alt="Qx2QHS.md.png"></a></p><p><a href="https://imgchr.com/i/Qx23NQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx23NQ.md.png" alt="Qx23NQ.md.png"></a></p><p><a href="https://imgchr.com/i/Qx2vVS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx2vVS.md.png" alt="Qx2vVS.md.png"></a></p><p><a href="https://imgchr.com/i/Qx2J9s" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx2J9s.md.jpg" alt="Qx2J9s.md.jpg"></a></p><p><a href="https://imgchr.com/i/Qx2ODf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx2ODf.md.png" alt="Qx2ODf.md.png"></a></p>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://imgchr.com/i/Qx2QHS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx2QHS.md.png" alt="Qx2QHS.md.png"></a></p><p><a href="https://imgchr.com/i/Qx23NQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx23NQ.md.png" alt="Qx23NQ.md.png"></a></p><p><a href="https://imgchr.com/i/Qx2vVS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/22/Qx2vVS.md.png" alt="Qx2vVS.md.png"></a></p>]]></content>
       
       
       <categories>
@@ -73,31 +73,6 @@
         <tags>
             
             <tag> 浪漫的体质 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>【电影截图】请回答1988</title>
-      <link href="/2019/12/19/dyjt-qhd1988/"/>
-      <url>/2019/12/19/dyjt-qhd1988/</url>
-      
-        <content type="html"><![CDATA[<ul><li>搞怪的不是红绿灯，而是我数不清的犹豫</li></ul><p><a href="https://imgchr.com/i/QXIklR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIklR.md.jpg" alt="QXIklR.md.jpg"></a></p><ul><li>缘分不是经常找来的<br><a href="https://imgchr.com/i/QXIlpd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIlpd.md.png" alt="QXIlpd.md.png"></a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电影截图 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 请回答1988 </tag>
             
         </tags>
       
@@ -133,6 +108,31 @@
     
     
     <entry>
+      <title>【电影截图】请回答1988</title>
+      <link href="/2019/12/19/dyjt-qhd1988/"/>
+      <url>/2019/12/19/dyjt-qhd1988/</url>
+      
+        <content type="html"><![CDATA[<ul><li>搞怪的不是红绿灯，而是我数不清的犹豫</li></ul><p><a href="https://imgchr.com/i/QXIklR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIklR.md.jpg" alt="QXIklR.md.jpg"></a></p><ul><li>缘分不是经常找来的<br><a href="https://imgchr.com/i/QXIlpd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIlpd.md.png" alt="QXIlpd.md.png"></a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电影截图 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 请回答1988 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2019/12/18/hello-world/"/>
       <url>/2019/12/18/hello-world/</url>
@@ -144,33 +144,6 @@
         <tags>
             
             <tag> Other </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Jquery选择器介绍</title>
-      <link href="/2019/12/18/it-jquery-selector/"/>
-      <url>/2019/12/18/it-jquery-selector/</url>
-      
-        <content type="html"><![CDATA[<h5 id="联合选择器-所有元素都生效"><a href="#联合选择器-所有元素都生效" class="headerlink" title="联合选择器(所有元素都生效):"></a>联合选择器(所有元素都生效):</h5><pre><code>${&quot;#d1,.d2,div&quot;}.css()</code></pre><h5 id="后代元素选择器："><a href="#后代元素选择器：" class="headerlink" title="后代元素选择器："></a>后代元素选择器：</h5><pre><code>$(&quot;#d1 a&quot;).css()</code></pre><h5 id="儿子选择器："><a href="#儿子选择器：" class="headerlink" title="儿子选择器："></a>儿子选择器：</h5><pre><code>$(&quot;#d1&gt; a&quot;).css()</code></pre><h5 id="兄弟选择器（下一个）："><a href="#兄弟选择器（下一个）：" class="headerlink" title="兄弟选择器（下一个）："></a>兄弟选择器（下一个）：</h5><pre><code>$(&quot;#d1+&quot;).css()</code></pre><h5 id="兄弟选择器（下所有）："><a href="#兄弟选择器（下所有）：" class="headerlink" title="兄弟选择器（下所有）："></a>兄弟选择器（下所有）：</h5><pre><code>$(&quot;#d1~&quot;).css()</code></pre><h5 id="内容选择器："><a href="#内容选择器：" class="headerlink" title="内容选择器："></a>内容选择器：</h5><pre><code>$(&quot;div:contains(‘我是一段内容’)&quot;）.css()</code></pre><h5 id="空内容："><a href="#空内容：" class="headerlink" title="空内容："></a>空内容：</h5><pre><code>$(&quot;div:empty&quot;).css()</code></pre><h5 id="元素包含选择器-包含has元素的元素-："><a href="#元素包含选择器-包含has元素的元素-：" class="headerlink" title="元素包含选择器(包含has元素的元素)："></a>元素包含选择器(包含has元素的元素)：</h5><pre><code>$(&quot;div:has(p)&quot;).css() </code></pre><h5 id="有子元素的父元素选择器："><a href="#有子元素的父元素选择器：" class="headerlink" title="有子元素的父元素选择器："></a>有子元素的父元素选择器：</h5><pre><code>$(&quot;div:parent&quot;).css()</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> IT </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> jquery </tag>
-            
-            <tag> html </tag>
             
         </tags>
       
@@ -200,6 +173,33 @@
             <tag> zip </tag>
             
             <tag> tar </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Jquery选择器介绍</title>
+      <link href="/2019/12/18/it-jquery-selector/"/>
+      <url>/2019/12/18/it-jquery-selector/</url>
+      
+        <content type="html"><![CDATA[<h5 id="联合选择器-所有元素都生效"><a href="#联合选择器-所有元素都生效" class="headerlink" title="联合选择器(所有元素都生效):"></a>联合选择器(所有元素都生效):</h5><pre><code>${&quot;#d1,.d2,div&quot;}.css()</code></pre><h5 id="后代元素选择器："><a href="#后代元素选择器：" class="headerlink" title="后代元素选择器："></a>后代元素选择器：</h5><pre><code>$(&quot;#d1 a&quot;).css()</code></pre><h5 id="儿子选择器："><a href="#儿子选择器：" class="headerlink" title="儿子选择器："></a>儿子选择器：</h5><pre><code>$(&quot;#d1&gt; a&quot;).css()</code></pre><h5 id="兄弟选择器（下一个）："><a href="#兄弟选择器（下一个）：" class="headerlink" title="兄弟选择器（下一个）："></a>兄弟选择器（下一个）：</h5><pre><code>$(&quot;#d1+&quot;).css()</code></pre><h5 id="兄弟选择器（下所有）："><a href="#兄弟选择器（下所有）：" class="headerlink" title="兄弟选择器（下所有）："></a>兄弟选择器（下所有）：</h5><pre><code>$(&quot;#d1~&quot;).css()</code></pre><h5 id="内容选择器："><a href="#内容选择器：" class="headerlink" title="内容选择器："></a>内容选择器：</h5><pre><code>$(&quot;div:contains(‘我是一段内容’)&quot;）.css()</code></pre><h5 id="空内容："><a href="#空内容：" class="headerlink" title="空内容："></a>空内容：</h5><pre><code>$(&quot;div:empty&quot;).css()</code></pre><h5 id="元素包含选择器-包含has元素的元素-："><a href="#元素包含选择器-包含has元素的元素-：" class="headerlink" title="元素包含选择器(包含has元素的元素)："></a>元素包含选择器(包含has元素的元素)：</h5><pre><code>$(&quot;div:has(p)&quot;).css() </code></pre><h5 id="有子元素的父元素选择器："><a href="#有子元素的父元素选择器：" class="headerlink" title="有子元素的父元素选择器："></a>有子元素的父元素选择器：</h5><pre><code>$(&quot;div:parent&quot;).css()</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> IT </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> jquery </tag>
+            
+            <tag> html </tag>
             
         </tags>
       

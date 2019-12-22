@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="cn">
 <head>
+  <!--加载valine评论模块-->
   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <!--加载不蒜子统计模块-->
   
     <script async src="/js/busuanzi.pure.mini.js"></script>
     
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <!--seo相关-->
   
   <meta name="keywords" content="电影 音乐">
   <meta name="description" content="听听歌，聊会音乐，品品生活">
   
+
   <title>欢迎来到AILOVEU的个人博客</title>
+  <!--加载所有css模块-->
   
     <!-- stylesheets list from config.yml -->
     
@@ -19,6 +25,8 @@
     
       <link rel="stylesheet" href="/css/main.min.css">
     
+  
+
   
   <style type="text/css">
       html{
@@ -38,7 +46,9 @@
 <link rel="shortcut icon" href="favicon.ico">
 <meta name="generator" content="Hexo 4.1.1"></head>
 <body>
+
 <div id="menu-box"><a href="javascript:void(0)" id="menu" data-activates="slide-out" class="button-collapse menu" ><span class="nav-btn"></span></a></div>
+<!--左边面板-->
 <div id="menu-outer">
   <div id="menu-inner">
       <ul id="slide-out" class="side-nav" >
@@ -138,11 +148,13 @@
 
   </div>
 </div>
-
+<!--内容页-->
 <div id="content-outer">
   <div id="content-inner">
+    <!-- body调index.ejs -->
     <div id="tag">
-    <div id="recent-posts">
+    
+<div id="recent-posts">
   
       <div class="recent-post-item lazy" style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/20/QOZIoT.jpg"  >
         <a class="recent-post-link" href="/2019/12/18/it-jquery-selector/">
@@ -192,8 +204,10 @@
 
 
 </div>
+    
   </div>
 </div>
+<!--页尾-->
 <div id="bottom-outer">
   <div id="bottom-inner">
     <a  id="top-button" onfocus="this.blur();"><div class="up upinbody" style="background-color:#26A69A"><i class="material-icons material-up">vertical_align_top</i></div></a>
@@ -241,18 +255,22 @@
 </div>
 
 <!--影集界面需要的资源-->
+<!--  -->
 
 
+</body>
+<!--加载脚本-->
 
-<!-- scripts list from theme config.yml -->
-
-<script src="/js/jquery-3.1.1.min.js"></script>
-
-<script src="/js/materialize.min.js"></script>
-
-<script src="/js/main.min.js"></script>
-
-
+  <!-- scripts list from theme config.yml -->
+  
+  <script src="/js/jquery-3.1.1.min.js"></script>
+  
+  <script src="/js/materialize.min.js"></script>
+  
+  <script src="/js/main.min.js"></script>
+  
+  
+  
 <script>
     NProgress.start();
     NProgress.done();
@@ -260,7 +278,7 @@
     links();
     window.onpopstate = menu();
     //pjax操作
-    $(document).pjax('a:not(.nopjax)', '#content-inner', {fragment:'#content-inner', timeout:8000});
+    //$(document).pjax('a:not(.nopjax)', '#content-inner', {fragment:'#content-inner', timeout:8000});
     $(document).on('pjax:start', NProgress.start).on('pjax:end', NProgress.done)
         .on('pjax:end', () => {
             dowmdiv();
@@ -271,5 +289,4 @@
         });
 </script>
 
-</body>
 </html>
