@@ -60,7 +60,7 @@
       <link href="/2019/12/22/pk-day1/"/>
       <url>/2019/12/22/pk-day1/</url>
       
-        <content type="html"><![CDATA[<p><audio controls="controls"  playsinline webkit-playsinline loop  autoplay="autoplay"><br><source src="/pianke/day1.mp3" type="audio/mpeg"><br></audio></p><span id="menu_index_1" name="menu_index_1"></p>  <div align="center"><p><img src="https://s2.ax1x.com/2019/12/22/QxOzIs.jpg" alt="QxOzIs.jpg"></p><blockquote><p>很遗憾片刻404了，如果有相似的软件欢迎小伙伴安利。再次感谢片刻陪伴的一个一个夜晚。</p></blockquote><p><em>说明：片刻系列专题全都是从“片刻app”上下载下来的，本人轻度松鼠囤积症外加不安全感，重要的东西都会保存到本地，所以保存了几篇，保存的名字都是是乱码，我也不知道叫原来叫什么，名字是根据内容取的。</em>aaaa</p>]]></content>
+        <content type="html"><![CDATA[<p><audio controls="controls"  playsinline webkit-playsinline loop  autoplay="autoplay"><br><source src="/pianke/day1.mp3" type="audio/mpeg"><br></audio></p><span id="menu_index_1" name="menu_index_1"></p>  <div align="center"><p><img src="https://s2.ax1x.com/2019/12/22/QxOzIs.jpg" alt="QxOzIs.jpg"></p>  </div><p><em>感谢片刻陪伴的一个一个夜晚</em></p>]]></content>
       
       
       <categories>
@@ -137,7 +137,7 @@
       <link href="/2019/12/19/dyjt-qhd1988/"/>
       <url>/2019/12/19/dyjt-qhd1988/</url>
       
-        <content type="html"><![CDATA[<ul><li><p>搞怪的不是红绿灯，而是我数不清的犹豫</p><div align="center"></li></ul><p><a href="https://imgchr.com/i/QXIklR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIklR.md.jpg" alt="QXIklR.md.jpg"></a></p><ul><li><p>缘分不是经常找来的</p><div align="center"></li></ul><p><a href="https://imgchr.com/i/QXIlpd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIlpd.md.png" alt="QXIlpd.md.png"></a> </p>]]></content>
+        <content type="html"><![CDATA[<h6 id="搞怪的不是红绿灯，而是我数不清的犹豫"><a href="#搞怪的不是红绿灯，而是我数不清的犹豫" class="headerlink" title="搞怪的不是红绿灯，而是我数不清的犹豫"></a>搞怪的不是红绿灯，而是我数不清的犹豫</h6>  <div align="center"><p><a href="https://imgchr.com/i/QXIklR" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIklR.md.jpg" alt="QXIklR.md.jpg"></a></p>  </div><h6 id="缘分不是经常找来的"><a href="#缘分不是经常找来的" class="headerlink" title="缘分不是经常找来的"></a>缘分不是经常找来的</h6>  <div align="center"><p><a href="https://imgchr.com/i/QXIlpd" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/20/QXIlpd.md.png" alt="QXIlpd.md.png"></a></p>  </div>]]></content>
       
       
       <categories>
@@ -185,25 +185,6 @@
     
     
     <entry>
-      <title>你好 欢迎来到本站</title>
-      <link href="/2019/12/18/hello-world/"/>
-      <url>/2019/12/18/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Other </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>&lt;Js&gt; Jquery选择器介绍</title>
       <link href="/2019/12/18/it-jquery-selector/"/>
       <url>/2019/12/18/it-jquery-selector/</url>
@@ -223,6 +204,25 @@
             <tag> jquery </tag>
             
             <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>你好 欢迎来到本站</title>
+      <link href="/2019/12/18/hello-world/"/>
+      <url>/2019/12/18/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Other </tag>
             
         </tags>
       
