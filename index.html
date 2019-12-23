@@ -37,6 +37,11 @@
       }
   </style>
 <link rel="shortcut icon" href="favicon.ico">
+    <!--加载valine评论模块-->
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <!--加载不蒜子统计模块-->
+     
+  
 <meta name="generator" content="Hexo 4.1.1"></head>
 <body>
 
@@ -94,7 +99,7 @@
 
 <ul class="dropdown-menu dropdown" >
     <li class="nav-dropdown-list">
-        <a class="archive-link" href="/archives/2019/12/">December 2019<span class="archive-count">9</span></a>
+        <a class="archive-link" href="/archives/2019/12/">December 2019<span class="archive-count">10</span></a>
     </li>
 </ul>
 <!--categories-->
@@ -107,7 +112,7 @@
 
 <ul class="dropdown-menu dropdown" >
     <li class="nav-dropdown-list">
-        <a class="category-link" href="/categories/IT/">IT<span class="category-count">2</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/">每日一禅<span class="category-count">3</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%89%87%E5%88%BB/">片刻<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图<span class="category-count">2</span></a>
+        <a class="category-link" href="/categories/IT/">IT<span class="category-count">2</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/">每日一禅<span class="category-count">3</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%89%87%E5%88%BB/">片刻<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图<span class="category-count">3</span></a>
     </li>
 </ul>
 <!--tags-->
@@ -148,32 +153,33 @@
     
 <!--首页的头部-->
 
+    <div class="post-header" style="background-image:url(https://s2.ax1x.com/2019/12/23/l9pGUf.jpg) ;height:450px;z-index:-1;">
+        <div style="background-color:rgba(128,128,128,0.05);z-index:1;width:auto;height:450px; ">
+        <a  href="http://ailoveu.github.io"  >
 
-<div class="post-header" style="background-image:url(https://s2.ax1x.com/2019/12/22/Qztbss.md.jpg) ;background-color:#26A69A ;height:450px;">
+            <!-- 标题组件 -->
+            <div class="post-header-title"  style="margin-top:140px;z-index:10;font-family:'楷体';">
+                <p style="color:white;font-size:50px;height:160px;line-height: 100px;z-index:10;font-family:'楷体';">
+                    
+                    
+                    
+                    
+                    
+                    <br>
+                    <!-- 访客组件 -->
+                    
+                </p>
+            </div>
+        </a>
+    </div>
+    </div>
 
-    <a  href="http://ailoveu.github.io"  >
-        <div class="post-header-title"  style="margin-top:140px;">
-            <p style="color:white;font-size:40px;height:160px;line-height: 100px;">
-                
-                
-                你好 欢迎来到本站
-                
-                
-                <br>
-                
-                <span id="busuanzi_container_site_pv" style="color: white;font-size:16px;line-height: 10px;display: inline-block;height: 10px">
-                你是第<span id="busuanzi_value_site_pv"></span>位访客
-                </span>
-                
-            </p>
-        </div>
-    </a>
-</div>
-<div class="post-author">
-    <div class="post-author-img"><img src="https://s2.ax1x.com/2019/12/20/QOeqN8.jpg" ondragstart="return false;"></div>
-    <p class="post-author-name">Hy</p>
+
+<div class="post-author" style="z-index:10;">
+    <!-- <div class="post-author-img"><img src="https://s2.ax1x.com/2019/12/20/QOeqN8.jpg" ondragstart="return false;"></div>
+    <p class="post-author-name" style="z-index:1100;">Hy</p> -->
     
-    <div class="post-author-button"  target="_self"><i class="material-icons"  target="_self" style="font-size: 20px">share</i></div>
+    <div class="post-author-button"  target="_self"><i class="material-icons"  target="_self" style="font-size: 5px">share</i></div>
     <div class="post-author-link"><ul>
             <p>分享到：</p>
             <li><a href="http://v.t.sina.com.cn/share/share.php?url=http://ailoveu.github.io&title=欢迎来到AILOVEU的个人博客" target="_blank">新浪微博</a></li>
@@ -201,12 +207,12 @@
     
     
     
-  <div class="recent-post-item lazy" style="min-height: 150px;background-color:#26A69A"  data-original="/images/random/vateral-4.png"  >
+  <div class="recent-post-item lazy" style="min-height: 150px;background-color:#26A69A"  data-original="/images/random/vateral-2.png"  >
     <div class="recent-post-item-up"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyBjbGFzcz0iaWNvbiIgd2lkdGg9IjEyOHB4IiBoZWlnaHQ9IjEyOC4wMHB4IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI2MC4wMTYgNTg0LjA5NmwxMTIuNi0xMTIuNTM2IDEyLjQ0IDEyLjQ0OC0xMTIuNiAxMTIuNTM2ek0yMzYuNzIgNTYxLjE3NmwxMTIuNTc2LTExMi41NjggMTIuNDQgMTIuNDQ4LTExMi41NjggMTEyLjU2OHpNMTAxLjMxMiA0NTAuNzQ0bDM2LjItMzYuMiAxOC4xMDQgMTguMDk2LTM2LjIgMzYuMjA4ek0yMTMuOTY4IDUzOC44NGwxMTIuNTYtMTEyLjU3NiAxMi40NDggMTIuNDQ4LTExMi41NiAxMTIuNTY4ek0xOTEuMTg0IDUxNS40MzJMMzAzLjc2IDQwMi44NTZsMTIuNDQgMTIuNDQ4LTExMi41NjggMTEyLjU2OHpNMjAwLjQ0IDM1MS41NDRsMzYuNzY4LTM2Ljc3NiAxOC4xMDQgMTguMTA0LTM2Ljc3NiAzNi43Njh6IiBmaWxsPSIjNzA3MDcwIiAvPjxwYXRoIGQ9Ik0wIDB2MTAyNEwxMDI0IDBIMHogbTI0MCAyOTEuMmw0NCA0NC0xMy42IDEzLjYtNC44LTQuOC0xMzYgMTM2IDQuOCA0LjgtMTMuNiAxMy42LTQ0LTQ0TDI0MCAyOTEuMnogbTAuOCAzNjAuOGwtMTEuMi0xMS4yIDI5LjYtMjkuNi05Mi44LTkyIDYwLjgtNjAuOC0xMi44LTEyLjgtODUuNiA4NS42LTExLjItMTEuMiA4NS42LTg1LjYtMTAuNC0xMC40IDE0LjQtMTQuNCAxMC40IDEwLjQgODgtODggMTEuMiAxMS4yLTg4IDg4IDEyLjggMTIuOCA2NC44LTY0LjggOTIgOTIgMjcuMi0yNy4yIDExLjIgMTEuMi0xOTYgMTk2Ljh6TTQ2NS42IDQyNGMtNi40IDYuNC0xMiAxMi0xNi44IDE2LTYuNC01LjYtMTMuNi0xMC40LTIwLjgtMTQuNCA3LjItNC44IDE0LjQtMTAuNCAyMC44LTE2LjhzNi40LTEyLjggMC0xOC40TDMxNy42IDI1OC40bC0zMiAzMi0xNC40LTE0LjQgNzMuNi03My42IDE0LjQgMTQuNC0yNi40IDI2LjRMNDY2LjQgMzc2YzE2IDE2IDE2IDMyLTAuOCA0OHogbS03OC40LTE5MmwzNi44LTM2LjgtMjEuNi0zMi44LTQ0LjggNDQuOC0xMy42LTE0LjRMNDYyLjQgNzQuNGwxNC40IDE0LjQtNTcuNiA1Ny42IDIwLjggMzMuNiA1NS4yLTU1LjIgOTUuMiA5NS4yLTE1LjIgMTUuMi04MS42LTgwLjgtNzYuOCA3Ni44IDgxLjYgODEuNi0xNS4yIDE1LjItOTYtOTZ6IG0xMzMuNiAxNTZjLTcuMi0xLjYtMTUuMi0zLjItMjQtNC44IDE3LjYtMzIgMjUuNi02MCAyMy4yLTgzLjItMi40LTIwLjgtMTYtNDQtNDAtNjhsLTIyLjQtMjIuNCAxNS4yLTE1LjIgMjEuNiAyMS42YzE2LjggMTYuOCAyOC44IDMyLjggMzYuOCA0OCAzNi44LTggNzEuMi0xNC40IDEwMy4yLTE5LjJsMi40IDI0LjhjLTMyLjggMy4yLTY0LjggOC05Ny42IDE0LjQgMS42IDQgMi40IDggMi40IDExLjIgNC44IDI2LjQtMi40IDU3LjYtMjAuOCA5Mi44eiIgZmlsbD0iIzcwNzA3MCIgLz48cGF0aCBkPSJNMTUxLjM4NCA0MDEuNjk2bDM2LjIwOC0zNi4yIDE4LjA5NiAxOC4xMDQtMzYuMiAzNi4yeiIgZmlsbD0iIzcwNzA3MCIgLz48L3N2Zz4="></div>
     <a class="recent-post-link" href="/2019/12/18/hello-world/" style="min-height: 150px">
       <div class="post-hover" style="min-height: 150px;text-align: center;padding: 20px 20px 20px 20px;">
         <!--title-->
-        <p class="post-title" style="line-height: 50px"><a href="/2019/12/18/hello-world/" >Hello World</a></p>
+        <p class="post-title" style="line-height: 50px"><a href="/2019/12/18/hello-world/" >你好 欢迎来到本站</a></p>
       </div>
     </a>
   </div>
@@ -214,19 +220,68 @@
     
     
     
+    
+    
   
     
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/22/QzOxAJ.md.jpg"  >
-        <a class="recent-post-link" href="/2019/12/23/mryc-day3/">
-        <div class="post-hover">
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/23/l9P9gg.md.jpg"  >
+       
+        <a class="recent-post-link" href="/2019/12/23/dyjt-wzwldn/">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/23/mryc-day3/" >【每日一禅】时光机</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/23/dyjt-wzwldn/"  >&lt;电影截图&gt; 我在未来等你</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-23T15:22:00.000Z">
-              2019-12-23
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-23T13:32:00.000Z">
+                2019-12-23
+              </time>
+            </p>
+          
+
+          <!--tags-->
+
+          标签:
+            
+              <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%88%91%E5%9C%A8%E6%9C%AA%E6%9D%A5%E7%AD%89%E4%BD%A0/" rel="tag">我在未来等你</a></li></ul>
+            
+          <!--分类-->
+
+          分类:
+            
+                <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图</a></li></ul>
+            
+
+          <!--excerpt-->
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
+            <p>
+              摘要：
+              
+                向命运 笃定是你
+              
+            </p>
+          </div>
+          <div class="post-more"><a href="/2019/12/23/dyjt-wzwldn/" >全文阅读</a></div>
+        </div>
+        </a>
+      </div>
+    
+  
+    
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/22/QzOxAJ.md.jpg"  >
+       
+        <a class="recent-post-link" href="/2019/12/22/mryc-day3/">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
+          <!--title-->
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/22/mryc-day3/"  >&lt;每日一禅&gt;  时光机</a></p>
+
+          <!--date-->
+          
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-22T15:22:00.000Z">
+                2019-12-22
+              </time>
             </p>
           
 
@@ -244,7 +299,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -252,24 +307,26 @@
               
             </p>
           </div>
-          <div class="post-more"><a href="/2019/12/23/mryc-day3/" >全文阅读</a></div>
+          <div class="post-more"><a href="/2019/12/22/mryc-day3/" >全文阅读</a></div>
         </div>
         </a>
       </div>
     
   
     
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/22/QxOfqe.md.jpg"  >
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/22/QxOfqe.md.jpg"  >
+       
         <a class="recent-post-link" href="/2019/12/22/pk-day1/">
-        <div class="post-hover">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/22/pk-day1/" >【片刻】今夜能否再梦见你？</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/22/pk-day1/"  >&lt;片刻&gt; 今夜能否再梦见你？</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-22T05:46:00.000Z">
-              2019-12-22
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-22T05:46:00.000Z">
+                2019-12-22
+              </time>
             </p>
           
 
@@ -287,7 +344,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -302,17 +359,19 @@
     
   
     
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/22/QxR2Gj.md.jpg"  >
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/22/QxR2Gj.md.jpg"  >
+       
         <a class="recent-post-link" href="/2019/12/22/dyjt-lmdtz/">
-        <div class="post-hover">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/22/dyjt-lmdtz/" >【电影截图】浪漫的体质</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/22/dyjt-lmdtz/"  >&lt;电影截图&gt; 浪漫的体质</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-22T04:16:00.000Z">
-              2019-12-22
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-22T04:16:00.000Z">
+                2019-12-22
+              </time>
             </p>
           
 
@@ -330,7 +389,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -345,17 +404,19 @@
     
   
     
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/22/QxgTXV.md.jpg"  >
-        <a class="recent-post-link" href="/2019/12/22/mryc-day2/">
-        <div class="post-hover">
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/22/QxgTXV.md.jpg"  >
+       
+        <a class="recent-post-link" href="/2019/12/21/mryc-day2/">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/22/mryc-day2/" >【每日一禅】做个可以向下兼容的人</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/21/mryc-day2/"  >&lt;每日一禅&gt;  做个可以向下兼容的人</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-21T17:00:00.000Z">
-              2019-12-22
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-20T17:00:00.000Z">
+                2019-12-21
+              </time>
             </p>
           
 
@@ -373,7 +434,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -381,24 +442,26 @@
               
             </p>
           </div>
-          <div class="post-more"><a href="/2019/12/22/mryc-day2/" >全文阅读</a></div>
+          <div class="post-more"><a href="/2019/12/21/mryc-day2/" >全文阅读</a></div>
         </div>
         </a>
       </div>
     
   
     
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/20/QXIDcn.md.png"  >
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/20/QXIDcn.md.png"  >
+       
         <a class="recent-post-link" href="/2019/12/19/dyjt-qhd1988/">
-        <div class="post-hover">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/19/dyjt-qhd1988/" >【电影截图】请回答1988</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/19/dyjt-qhd1988/"  >&lt;电影截图&gt; 请回答1988</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-18T17:00:00.000Z">
-              2019-12-19
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-18T17:00:00.000Z">
+                2019-12-19
+              </time>
             </p>
           
 
@@ -416,7 +479,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -431,17 +494,19 @@
     
   
     
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/20/QXrfsJ.jpg"  >
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/20/QXrfsJ.jpg"  >
+       
         <a class="recent-post-link" href="/2019/12/19/mryc-day1/">
-        <div class="post-hover">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/19/mryc-day1/" >【每日一禅】不主动不是因为不在乎</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/19/mryc-day1/"  >&lt;每日一禅&gt; 不主动不是因为不在乎</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-18T17:00:00.000Z">
-              2019-12-19
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-18T17:00:00.000Z">
+                2019-12-19
+              </time>
             </p>
           
 
@@ -459,7 +524,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -474,17 +539,21 @@
     
   
     
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/20/QOZIoT.jpg"  >
+  
+    
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/20/QOZIoT.jpg"  >
+       
         <a class="recent-post-link" href="/2019/12/18/it-jquery-selector/">
-        <div class="post-hover">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/18/it-jquery-selector/" >Jquery选择器介绍</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/18/it-jquery-selector/"  >&lt;Js&gt; Jquery选择器介绍</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-17T17:00:00.000Z">
-              2019-12-18
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-17T17:00:00.000Z">
+                2019-12-18
+              </time>
             </p>
           
 
@@ -502,7 +571,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -517,19 +586,19 @@
     
   
     
-  
-    
-      <div class="recent-post-item lazy"style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2019/12/20/QOZfLq.jpg"  >
+      <div class="recent-post-item lazy"   data-original="https://s2.ax1x.com/2019/12/20/QOZfLq.jpg"  >
+       
         <a class="recent-post-link" href="/2019/12/18/it-linux-zip/">
-        <div class="post-hover">
+        <div class="post-hover" style="background-color:rgba(	80,80,80,0.4);z-index:-1;font-family:'楷体';">
           <!--title-->
-          <p class="post-title"><a href="/2019/12/18/it-linux-zip/" >linux下文件的压缩解压</a></p>
+          <p class="post-title" style="font-family:'楷体';"><a href="/2019/12/18/it-linux-zip/"  >&lt;Linux&gt; linux下文件的压缩解压</a></p>
 
           <!--date-->
           
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2019-12-17T17:00:00.000Z">
-              2019-12-18
-            </time>
+            <p class="post-time" style="font-family:'楷体';">作者: Hy &nbsp &nbsp 发布于:
+              <time datetime="2019-12-17T17:00:00.000Z">
+                2019-12-18
+              </time>
             </p>
           
 
@@ -547,7 +616,7 @@
             
 
           <!--excerpt-->
-          <div class="post-excerpt">
+          <div class="post-excerpt" style="font-family:'楷体';font-size:18px;">
             <p>
               摘要：
               
@@ -576,8 +645,7 @@
     <a  id="top-button" onfocus="this.blur();"><div class="up upinbody" style="background-color:#26A69A"><i class="material-icons material-up">vertical_align_top</i></div></a>
 
 
-<p >Copyright ©  2020  欢迎来到AILOVEU的个人博客</p>
-<p >Powered by <a href="https://hexo.io/" target="_blank"> Hexo </a> & Theme - <a href="https://github.com/moumao/hexo-theme-Vateral" target="_blank">Vateral</a></p>
+<p >Copyright ©  2020  AILOVEU 欢迎来到AILOVEU的个人博客</p>
 <p style="font-size: 10px" id="footer-times" data-time="12/18/2019 00:00:00"></p>
 <script>
     var beginTime=document.getElementById("footer-times").dataset.time
@@ -633,14 +701,9 @@
   <script src="/js/main.min.js"></script>
   
   
-    <!--加载valine评论模块-->
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <!--加载不蒜子统计模块-->
-    
-      <script async src="/js/busuanzi.pure.mini.js"></script>
-      
-  
+
 <script>
+    dowmdiv();
     NProgress.start();
     NProgress.done();
     lazy();
