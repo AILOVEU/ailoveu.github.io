@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>&lt;hexo&gt;  1.1创建github账号、项目</title>
+      <title>&lt;hexo&gt;  |1.1创建github账号、项目</title>
       <link href="/IT/hexo/1.1/"/>
       <url>/IT/hexo/1.1/</url>
       
-        <content type="html"><![CDATA[<p>作者还没有写，这也太太太懒了吧</p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>登录/注册 github网页</p></blockquote><p><em><a href="https://github.com" target="_blank" rel="noopener">github</a></em></p><p><a href="https://imgchr.com/i/lPWM6g" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/24/lPWM6g.md.jpg" alt="lPWM6g.md.jpg"></a></p><blockquote><p>登录后，点击右上角加号，点击New repository</p></blockquote><p><a href="https://imgchr.com/i/lPWup8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/24/lPWup8.jpg" alt="lPWup8.jpg"></a></p><blockquote><p>填写Repository name，如图中hexo-builder2</p></blockquote><blockquote><p>项目是否公开（public/private）由个人情况决定，可选</p></blockquote><blockquote><p>创建一个默认的README，可选</p></blockquote><p><a href="https://imgchr.com/i/lPWK1S" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/24/lPWK1S.md.jpg" alt="lPWK1S.md.jpg"></a></p><blockquote><p>下载github desktop</p></blockquote><p><a href="https://desktop.github.com" target="_blank" rel="noopener">github desktop</a></p><blockquote><p>登录github desktop</p></blockquote><blockquote><p>克隆项目代码</p></blockquote><p><a href="https://imgchr.com/i/lPW1mj" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/24/lPW1mj.md.jpg" alt="lPW1mj.md.jpg"></a></p><blockquote><p>选择安装目录</p></blockquote><p><a href="https://imgchr.com/i/lPWQXQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/24/lPWQXQ.jpg" alt="lPWQXQ.jpg"></a></p>]]></content>
       
       
       <categories>
@@ -31,7 +31,7 @@
     
     
     <entry>
-      <title>&lt;hexo&gt;  hexo建站</title>
+      <title>&lt;hexo&gt;  hexo建站导航页</title>
       <link href="/IT/hexo/hexo-nav/"/>
       <url>/IT/hexo/hexo-nav/</url>
       
