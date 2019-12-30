@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>&lt;妹子图&gt; 所以暂时将你眼睛闭了起来</title>
+      <link href="/goddess/goddess-day2/"/>
+      <url>/goddess/goddess-day2/</url>
+      
+        <content type="html"><![CDATA[  <div align="center" style="width:900px"><p><a href="https://imgchr.com/i/llYwLD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYwLD.md.jpg" alt="llYwLD.md.jpg"></a></p><p><a href="https://imgchr.com/i/llYyFA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYyFA.png" alt="llYyFA.png"></a></p><p><a href="https://imgchr.com/i/llYDdH" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYDdH.md.jpg" alt="llYDdH.md.jpg"></a></p><p><a href="https://imgchr.com/i/llYWy8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYWy8.png" alt="llYWy8.png"></a></p><p><a href="https://imgchr.com/i/llY6JI" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llY6JI.md.jpg" alt="llY6JI.md.jpg"></a></p><p><a href="https://imgchr.com/i/llYcWt" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYcWt.jpg" alt="llYcWt.jpg"></a></p><p><a href="https://imgchr.com/i/llY2SP" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llY2SP.jpg" alt="llY2SP.jpg"></a></p><p><a href="https://imgchr.com/i/llYRQf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYRQf.jpg" alt="llYRQf.jpg"></a></p><p><a href="https://imgchr.com/i/llYfOS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYfOS.jpg" alt="llYfOS.jpg"></a></p><p><a href="https://imgchr.com/i/llYqS0" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYqS0.md.jpg" alt="llYqS0.md.jpg"></a></p>  </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 妹子图 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 福利 </tag>
+            
+            <tag> 养眼 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>&lt;每日一禅&gt;  来生做一棵树</title>
       <link href="/daily-meditation/mryc-day4/"/>
       <url>/daily-meditation/mryc-day4/</url>
@@ -449,6 +476,33 @@
     
     
     <entry>
+      <title>&lt;Js&gt; Jquery选择器介绍</title>
+      <link href="/IT/front-end/it-jquery-selector/"/>
+      <url>/IT/front-end/it-jquery-selector/</url>
+      
+        <content type="html"><![CDATA[<h5 id="联合选择器-所有元素都生效"><a href="#联合选择器-所有元素都生效" class="headerlink" title="联合选择器(所有元素都生效):"></a>联合选择器(所有元素都生效):</h5><pre><code>${&quot;#d1,.d2,div&quot;}.css()</code></pre><h5 id="后代元素选择器："><a href="#后代元素选择器：" class="headerlink" title="后代元素选择器："></a>后代元素选择器：</h5><pre><code>$(&quot;#d1 a&quot;).css()</code></pre><h5 id="儿子选择器："><a href="#儿子选择器：" class="headerlink" title="儿子选择器："></a>儿子选择器：</h5><pre><code>$(&quot;#d1&gt; a&quot;).css()</code></pre><h5 id="兄弟选择器（下一个）："><a href="#兄弟选择器（下一个）：" class="headerlink" title="兄弟选择器（下一个）："></a>兄弟选择器（下一个）：</h5><pre><code>$(&quot;#d1+&quot;).css()</code></pre><h5 id="兄弟选择器（下所有）："><a href="#兄弟选择器（下所有）：" class="headerlink" title="兄弟选择器（下所有）："></a>兄弟选择器（下所有）：</h5><pre><code>$(&quot;#d1~&quot;).css()</code></pre><h5 id="内容选择器："><a href="#内容选择器：" class="headerlink" title="内容选择器："></a>内容选择器：</h5><pre><code>$(&quot;div:contains(‘我是一段内容’)&quot;）.css()</code></pre><h5 id="空内容："><a href="#空内容：" class="headerlink" title="空内容："></a>空内容：</h5><pre><code>$(&quot;div:empty&quot;).css()</code></pre><h5 id="元素包含选择器-包含has元素的元素-："><a href="#元素包含选择器-包含has元素的元素-：" class="headerlink" title="元素包含选择器(包含has元素的元素)："></a>元素包含选择器(包含has元素的元素)：</h5><pre><code>$(&quot;div:has(p)&quot;).css() </code></pre><h5 id="有子元素的父元素选择器："><a href="#有子元素的父元素选择器：" class="headerlink" title="有子元素的父元素选择器："></a>有子元素的父元素选择器：</h5><pre><code>$(&quot;div:parent&quot;).css()</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> IT </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> jquery </tag>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>&lt;Linux&gt; linux下文件的压缩解压</title>
       <link href="/IT/linux/it-linux-zip/"/>
       <url>/IT/linux/it-linux-zip/</url>
@@ -470,33 +524,6 @@
             <tag> zip </tag>
             
             <tag> tar </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>&lt;Js&gt; Jquery选择器介绍</title>
-      <link href="/IT/front-end/it-jquery-selector/"/>
-      <url>/IT/front-end/it-jquery-selector/</url>
-      
-        <content type="html"><![CDATA[<h5 id="联合选择器-所有元素都生效"><a href="#联合选择器-所有元素都生效" class="headerlink" title="联合选择器(所有元素都生效):"></a>联合选择器(所有元素都生效):</h5><pre><code>${&quot;#d1,.d2,div&quot;}.css()</code></pre><h5 id="后代元素选择器："><a href="#后代元素选择器：" class="headerlink" title="后代元素选择器："></a>后代元素选择器：</h5><pre><code>$(&quot;#d1 a&quot;).css()</code></pre><h5 id="儿子选择器："><a href="#儿子选择器：" class="headerlink" title="儿子选择器："></a>儿子选择器：</h5><pre><code>$(&quot;#d1&gt; a&quot;).css()</code></pre><h5 id="兄弟选择器（下一个）："><a href="#兄弟选择器（下一个）：" class="headerlink" title="兄弟选择器（下一个）："></a>兄弟选择器（下一个）：</h5><pre><code>$(&quot;#d1+&quot;).css()</code></pre><h5 id="兄弟选择器（下所有）："><a href="#兄弟选择器（下所有）：" class="headerlink" title="兄弟选择器（下所有）："></a>兄弟选择器（下所有）：</h5><pre><code>$(&quot;#d1~&quot;).css()</code></pre><h5 id="内容选择器："><a href="#内容选择器：" class="headerlink" title="内容选择器："></a>内容选择器：</h5><pre><code>$(&quot;div:contains(‘我是一段内容’)&quot;）.css()</code></pre><h5 id="空内容："><a href="#空内容：" class="headerlink" title="空内容："></a>空内容：</h5><pre><code>$(&quot;div:empty&quot;).css()</code></pre><h5 id="元素包含选择器-包含has元素的元素-："><a href="#元素包含选择器-包含has元素的元素-：" class="headerlink" title="元素包含选择器(包含has元素的元素)："></a>元素包含选择器(包含has元素的元素)：</h5><pre><code>$(&quot;div:has(p)&quot;).css() </code></pre><h5 id="有子元素的父元素选择器："><a href="#有子元素的父元素选择器：" class="headerlink" title="有子元素的父元素选择器："></a>有子元素的父元素选择器：</h5><pre><code>$(&quot;div:parent&quot;).css()</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> IT </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> jquery </tag>
-            
-            <tag> html </tag>
             
         </tags>
       
