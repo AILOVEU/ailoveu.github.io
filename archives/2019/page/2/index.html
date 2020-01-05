@@ -8,7 +8,13 @@
   <meta name="keywords" content="电影 音乐">
   <meta name="description" content="听听歌，聊会音乐，品品生活">
   
-
+  <link type="text/css" rel="stylesheet" media="screen" href="http://oss.rainman.me/rainman.me/js/sakura/jquery-sakura.css" />
+  <script>
+    if( /Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent))
+    {}
+    else
+    {  document.write('<script src="http://oss.rainman.me/rainman.me/js/sakura/jquery-sakura.js"><\/script><script type="text/javascript">$(function(){$("body").sakura()});$(window).load(function(){$("body").sakura()});<\/script>');}
+    </script>
   <title>欢迎来到AILOVEU的个人博客</title>
   <!--加载所有css模块-->
   
@@ -103,7 +109,7 @@
 
 <ul class="dropdown-menu dropdown" >
     <li class="nav-dropdown-list">
-        <a class="archive-link" href="/archives/2020/01/">January 2020<span class="archive-count">3</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/12/">December 2019<span class="archive-count">20</span></a>
+        <a class="archive-link" href="/archives/2020/01/">January 2020<span class="archive-count">5</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/12/">December 2019<span class="archive-count">20</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/01/">January 2019<span class="archive-count">1</span></a>
     </li>
 </ul>
 <!--categories-->
@@ -116,7 +122,7 @@
 
 <ul class="dropdown-menu dropdown" >
     <li class="nav-dropdown-list">
-        <a class="category-link" href="/categories/IT/">IT<span class="category-count">6</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/">妹子图<span class="category-count">3</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/">每日一禅<span class="category-count">5</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%89%87%E5%88%BB/">片刻<span class="category-count">3</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图<span class="category-count">3</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场<span class="category-count">1</span></a>
+        <a class="category-link" href="/categories/IT/">IT<span class="category-count">6</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/">妹子图<span class="category-count">4</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具<span class="category-count">2</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/">每日一禅<span class="category-count">5</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%89%87%E5%88%BB/">片刻<span class="category-count">3</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图<span class="category-count">3</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E9%9F%B3%E4%B9%90/">音乐<span class="category-count">1</span></a>
     </li>
 </ul>
 <!--tags-->
@@ -451,7 +457,7 @@
         </a>
       </div>
   
-      <div class="recent-post-item lazy" style="background-color:#26A69A"  data-original="/images/random/vateral-2.png"  >
+      <div class="recent-post-item lazy" style="background-color:#26A69A"  data-original="/images/random/vateral-5.png"  >
         <a class="recent-post-link" href="/hello-world/">
         <div class="post-hover">
           <!--title-->
@@ -575,7 +581,7 @@
       </div>
   
   <nav class="paging">
-    <a class="extend prev" rel="prev" href="/archives/2019/"><div class="prev-text"><i class="material-icons">chevron_left</i></div></a><a class="page-number" href="/archives/2019/">1</a><span class="page-number current">2</span>
+    <a class="extend prev" rel="prev" href="/archives/2019/"><div class="prev-text"><i class="material-icons">chevron_left</i></div></a><a class="page-number" href="/archives/2019/">1</a><span class="page-number current">2</span><a class="page-number" href="/archives/2019/page/3/">3</a><a class="extend next" rel="next" href="/archives/2019/page/3/"><div class="next-text"><i class="material-icons">chevron_right</i></div></a>
 </nav>
 </div>
 
@@ -650,7 +656,39 @@
   <script src="/js/main.min.js"></script>
   
   
-
+  <script>
+    function color16(){//十六进制颜色随机
+			var r = Math.floor(Math.random()*256);
+			var g = Math.floor(Math.random()*256);
+			var b = Math.floor(Math.random()*256);
+			var color = '#'+r.toString(16)+g.toString(16)+b.toString(16);
+			return color;
+		}
+    $("html,body").click(function(e) {
+      var gcd = new Array("❤", "^_^", "自由", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
+      var n = Math.floor(Math.random() * gcd.length);
+      var $i = $("<b/>").text(gcd[n]);
+      var x = e.pageX,
+      y = e.pageY;
+      $i.css({
+        "z-index": 99999,
+        "top": y - 20,
+        "left": x,
+        "position": "absolute",
+        "color": color16()
+      });
+      $("body").append($i);
+      $i.animate({
+        "top": y - 180,
+        "opacity": 0
+      },
+      1500,
+      function() {
+        $i.remove()
+      });
+      e.stopPropagation()
+    });
+  </script>
 <script>
     dowmdiv();
     NProgress.start();
