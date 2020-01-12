@@ -1,379 +1,1250 @@
+<!--
+	作者：Sariay
+	时间：2018-08-26
+	描述：There may be a bug, but don't worry, Qiling(器灵) says that it can work normally! aha!
+-->
 <!DOCTYPE html>
-<html lang="cn">
+<html class="html-loading">
+		
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <!--seo相关-->
-  
-  <meta name="keywords" content="电影 音乐">
-  <meta name="description" content="听听歌，聊会音乐，品品生活">
-  
-  <link type="text/css" rel="stylesheet" media="screen" href="http://oss.rainman.me/rainman.me/js/sakura/jquery-sakura.css" />
-  <script>
-    if( /Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent))
-    {}
-    else
-    {  document.write('<script src="http://oss.rainman.me/rainman.me/js/sakura/jquery-sakura.js"><\/script><script type="text/javascript">$(function(){$("body").sakura()});$(window).load(function(){$("body").sakura()});<\/script>');}
-    </script>
-  <title>欢迎来到AILOVEU的个人博客</title>
-  <!--加载所有css模块-->
-  
-    <!-- stylesheets list from config.yml -->
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>
     
-      <link rel="stylesheet" href="/css/materialize.min.css">
+      tag: 想见你 | AILOVEU
     
-      <link rel="stylesheet" href="/css/main.min.css">
-    
-      <link rel="stylesheet" href="/css/mycss.css">
-    
+  </title>
+  <meta name="author" content="Hy">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+	<!-- favicon -->
+  <link rel="shortcut icon" href="/img/favicon.ico">
+
+  <!-- css -->
   
+<link rel="stylesheet" href="/css/Annie.css">
+
   
-  
-  <style type="text/css">
-  body{
-    padding:0;
-		margin:0;
-		flex-direction: column!important;
-		height: 100%;
-		display: flex!important;
-}
-      html{
-          font-family: sans-serif;
-          font-weight: 300;
-          height: 100%;
-      }
-      @font-face {
-          font-family: 'Material Icons';
-          font-style: normal;
-          font-weight: 400;
-          src: url(/fonts/MaterialIcons-Regular.eot);
-          src: url(/fonts/MaterialIcons-Regular.woff2) format('woff2'),
-          url(/fonts/MaterialIcons-Regular.woff) format('woff'),
-          url(/fonts/MaterialIcons-Regular.ttf) format('truetype')
-      }
-  </style>
-<link rel="shortcut icon" href="favicon.ico">
-    <!--加载valine评论模块-->
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <!--加载不蒜子统计模块-->
-     
-  
-<meta name="generator" content="Hexo 4.2.0"></head>
-<body style="padding:0;margin:0;flex-direction: column!important;height: 100%;display: flex!important;">
-  <div id="tag">
-    
-<div id="recent-posts">
-  
-      <div class="recent-post-item lazy" style="background-color:#26A69A"   data-original="https://s2.ax1x.com/2020/01/06/lyasdP.md.jpg"  >
-        <a class="recent-post-link" href="/movie-capture/dyjt-xjn/">
-        <div class="post-hover">
-          <!--title-->
-          <p class="post-title"><a href="/movie-capture/dyjt-xjn/" >&lt;电影截图&gt; 想见你</a></p>
-
-          <!--date-->
-          
-            <p class="post-time">Hy &nbsp &nbsp 发布于:<time datetime="2020-01-06T15:32:00.000Z">
-              2020-01-06
-            </time>
-            </p>
-          
-
-          <!--tags-->
-
-          标签:
-            
-            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%83%B3%E8%A7%81%E4%BD%A0/" rel="tag">想见你</a></li></ul>
-            
-          <!--分类-->
-
-          <!--excerpt-->
-          <div class="post-excerpt">
-            <p>
-              摘要：
-              
-                你给的爱 无助的等待
-              
-            </p>
-          </div>
-          <div class="post-more"><a href="/movie-capture/dyjt-xjn/" >全文阅读</a></div>
-        </div>
-        </a>
-      </div>
-  
-  <nav class="paging">
-    <span class="page-number current">1</span>
-</nav>
-</div>
+  <!-- jquery -->
+	
+<script src="/plugin/jquery/jquery.min.js"></script>
 
 
-</div>
-  <center>
-    <span id="jinrishici-sentence">正在加载今日诗词....</span>
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <br />
-  </center>
-<div id="menu-box"><a href="javascript:void(0)" id="menu" data-activates="slide-out" class="button-collapse menu" ><span class="nav-btn"></span></a></div>
-<!--左边面板-->
-<div id="menu-outer">
-  <div id="menu-inner">
-      <ul id="slide-out" class="side-nav" >
-    <div class="nav-header"  style="background-image: url(https://s2.ax1x.com/2019/12/20/QOef9e.jpg);background-color:#26A69A">
-    <div class="header-box"><img src="https://s2.ax1x.com/2019/12/20/QOeqN8.jpg" ondragstart="return false;"></div>
-    <p>Hy</p>
-    <div class="nav-link">
-        
-        <a href="http://example.com" target="_blank"> <div class="link-box twitter"></div></a>
-        
-        
-        <a  href="https://github.com/AILOVEU" target="_blank"><div class="link-box github"></div></a>
-        
-        
-        <a href="mailto:ailoveuhy@gmail.com"><div class="link-box email"></div></a>
-        
-        
-        <a href="https://weibo.com/u/5306271796" target="_blank"><div class="link-box weibo"></div></a>
-        
-        
-        <a href="https://www.zhihu.com/people/AILOVEUU/activities" target="_blank"> <div class="link-box zhihu"></div></a>
-        
-    </div>
-    <div class="nav-search">
-        <form id="search-form"> <!-- 搜索框相关 -->
-            <input type="text" id="local-search-input" name="q" results="0" placeholder="搜索..." class="search form-control" autocomplete="on" autocorrect="off"/>
-            <div class="nav-search-img"><i class="material-icons">search</i></div>
-        </form>
-        <div
-         id="local-search-result"></div
-            > <!-- 搜索结果区 -->
-        <p class='no-result'>无搜索结果</p>
-    </div>
-</div>
-    <!--Homepage-->
-
-<li class="nav-list">
-    <a href="/" target="_self">
-        <div class="nav-ico"><i class="material-icons">home</i> </div><p>主页</p>
-    </a>
-</li>
-
-<!--archives-->
-
-<li class="nav-list dropdown-btn">
-    <a  class=""  target="_self">
-        <div class="nav-ico"><i class="material-icons">assignment</i></div><p>归档</p><div class="dropdown-ico"><i class="material-icons">arrow_drop_down</i></div>
-    </a>
-</li>
-
-<ul class="dropdown-menu dropdown" >
-    <li class="nav-dropdown-list">
-        <a class="archive-link" href="/archives/2020/01/">January 2020<span class="archive-count">11</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/12/">December 2019<span class="archive-count">20</span></a></li><li class="nav-dropdown-list"><a class="archive-link" href="/archives/2019/01/">January 2019<span class="archive-count">1</span></a>
-    </li>
-</ul>
-<!--categories-->
-
-<li class="nav-list dropdown-btn">
-    <a   class=""  target="_self">
-        <div class="nav-ico"><i class="material-icons">dashboard</i></div><p>分类</p><div class="dropdown-ico"><i class="material-icons">arrow_drop_down</i></div>
-    </a>
-</li>
-
-<ul class="dropdown-menu dropdown" >
-    <li class="nav-dropdown-list">
-        <a class="category-link" href="/categories/IT/">IT<span class="category-count">6</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/">妹子图<span class="category-count">4</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具<span class="category-count">2</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E6%AE%B5%E5%AD%90/">段子<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/">每日一禅<span class="category-count">6</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%89%87%E5%88%BB/">片刻<span class="category-count">4</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%90%86%E8%B4%A2/">理财<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图<span class="category-count">4</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/">镇馆之宝<span class="category-count">1</span></a></li><li class="nav-dropdown-list"><a class="category-link" href="/categories/%E9%9F%B3%E4%B9%90/">音乐<span class="category-count">1</span></a>
-    </li>
-</ul>
-<!--tags-->
-
-<li class="nav-list">
-    <a href="/archives" target="_self">
-        <div class="nav-ico"><i class="material-icons">bookmark</i> </div><p>标签</p>
-    </a>
-</li>
-
-<!--photo-->
-
-<li class="nav-list">
-    <a href="/photo" class="nopjax" target="_self">
-        <div class="nav-ico"><i class="material-icons">insert_photo</i> </div><p>影集</p>
-    </a>
-</li>
-
-<!--friends-->
-
-<!--about-->
-
-<li class="nav-list">
-    <a href="/about" target="_self">
-        <div class="nav-ico"><i class="material-icons">copyright</i> </div><p>关于</p>
-    </a>
-</li>
-
-
-</ul>
-
-  </div>
-</div>
-<!--内容页-->
-
-    <!-- body调index.ejs -->
-  
-    
-
-<!--页尾-->
-<!-- <div id="bottom-outer">
-  <div id="bottom-inner">
-    <a  id="top-button" onfocus="this.blur();"><div class="up upinbody" style="background-color:#26A69A"><i class="material-icons material-up">vertical_align_top</i></div></a>
-<footer class="myfooter">
-    <p style="line-height: 25px">Copyright © 2020  欢迎来到AILOVEU的个人博客 <a href="mailto:hy_wanghuan@163.com" title="联系我">联系我</a> 
-    <p style="font-size: 10px" id="footer-times" data-time="12/18/2019 00:00:00"></p>
-   
-
-</footer>
 <script>
-    var beginTime=document.getElementById("footer-times").dataset.time
-    function show_date_time(){
-        var span=document.getElementById("footer-times")
-        window.setTimeout("show_date_time()", 1000);
-        BirthDay=new Date(beginTime);//初始日期
-        today=new Date();
-        timeold=(today.getTime()-BirthDay.getTime());
-        sectimeold=timeold/1000
-        secondsold=Math.floor(sectimeold);
-        msPerDay=24*60*60*1000
-        e_daysold=timeold/msPerDay
-        daysold=Math.floor(e_daysold);
-        e_hrsold=(e_daysold-daysold)*24;
-        hrsold=Math.floor(e_hrsold);
-        e_minsold=(e_hrsold-hrsold)*60;
-        minsold=Math.floor((e_hrsold-hrsold)*60);
-        seconds=Math.floor((e_minsold-minsold)*60);
-        span.innerHTML="本站已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+    const CONFIG_BGIMAGE = {
+      mode: 'normal',
+      normalSrc: 'https://picsum.photos/1920/1080',
+      randomYouMax: 110,
+      randomYouSrc: 'https://picsum.photos/1920/1080',
+	  randomOtherSrc: 'https://picsum.photos/1920/1080',
+	  preloaderEnable: true
     }
-    show_date_time();
-</script>
-
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?edd020d1de1a782924823ea413e64fc5";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-        </script>        
-    
-  </div>
-</div> -->
-
-<a  id="top-button" onfocus="this.blur();"><div class="up upinbody" style="background-color:#26A69A"><i class="material-icons material-up">vertical_align_top</i></div></a>
-<footer class="myfooter">
-    <p style="line-height: 25px">Copyright © 2020  欢迎来到AILOVEU的个人博客 <a href="mailto:hy_wanghuan@163.com" title="联系我">联系我</a> 
-    <p style="font-size: 10px" id="footer-times" data-time="12/18/2019 00:00:00"></p>
-   
-
-</footer>
-<script>
-    var beginTime=document.getElementById("footer-times").dataset.time
-    function show_date_time(){
-        var span=document.getElementById("footer-times")
-        window.setTimeout("show_date_time()", 1000);
-        BirthDay=new Date(beginTime);//初始日期
-        today=new Date();
-        timeold=(today.getTime()-BirthDay.getTime());
-        sectimeold=timeold/1000
-        secondsold=Math.floor(sectimeold);
-        msPerDay=24*60*60*1000
-        e_daysold=timeold/msPerDay
-        daysold=Math.floor(e_daysold);
-        e_hrsold=(e_daysold-daysold)*24;
-        hrsold=Math.floor(e_hrsold);
-        e_minsold=(e_hrsold-hrsold)*60;
-        minsold=Math.floor((e_hrsold-hrsold)*60);
-        seconds=Math.floor((e_minsold-minsold)*60);
-        span.innerHTML="本站已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+	
+    const CONFIG_LEACLOUD_COUNT = {
+      enable: true,
+	  appId: '6EAKMFXHkl9DUQpOKtVtJMwJ-gzGzoHsz',
+	  appKey: 'fTeVCApFb2zauCWeBcDhyxdy',
+	  serverURLs: 'https://6eakmfxh.lc-cn-n1-shared.com' || ' '
     }
-    show_date_time();
-</script>
-
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?edd020d1de1a782924823ea413e64fc5";
-          var s = document.getElementsByTagName("script")[0]; 
-          s.parentNode.insertBefore(hm, s);
-        })();
-        </script>        
-    
-
-<!--影集界面需要的资源-->
-<!--  -->
-
-
-</body >
-<!-- <script src="https://topurl.cn/chat.js"></script> -->
-
-<!--加载脚本-->
-
-  <!-- scripts list from theme config.yml -->
-  
-  <script src="/js/jquery-3.1.1.min.js"></script>
-  
-  <script src="/js/materialize.min.js"></script>
-  
-  <script src="/js/main.min.js"></script>
-  
-  
-  <script>
-    function color16(){//十六进制颜色随机
-			var r = Math.floor(Math.random()*256);
-			var g = Math.floor(Math.random()*256);
-			var b = Math.floor(Math.random()*256);
-			var color = '#'+r.toString(16)+g.toString(16)+b.toString(16);
-			return color;
-		}
-    $("html,body").click(function(e) {
-      var gcd = new Array("❤", "^_^", "自由", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
-      var n = Math.floor(Math.random() * gcd.length);
-      var $i = $("<b/>").text(gcd[n]);
-      var x = e.pageX,
-      y = e.pageY;
-      $i.css({
-        "z-index": 99999,
-        "top": y - 20,
-        "left": x,
-        "position": "absolute",
-        "color": color16()
-      });
-      $("body").append($i);
-      $i.animate({
-        "top": y - 180,
-        "opacity": 0
-      },
-      1500,
-      function() {
-        $i.remove()
-      });
-      e.stopPropagation()
-    });
   </script>
-<script>
-    dowmdiv();
-    NProgress.start();
-    NProgress.done();
-    lazy();
-    links();
-    window.onpopstate = menu();
-    //pjax操作
-    //$(document).pjax('a:not(.nopjax)', '#content-inner', {fragment:'#content-inner', timeout:8000});
-    $(document).on('pjax:start', NProgress.start).on('pjax:end', NProgress.done)
-        .on('pjax:end', () => {
-            dowmdiv();
-            lazy();
-            toc();
-            links();
-            menu();
-        });
+<meta name="generator" content="Hexo 4.2.0"></head>
+	<body>
+		<!-- Preloader -->
+
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
+<!-- header -->
+<header class="fixbackground bg-pan-br">
+	<div class="mask">
+		<!-- motto -->
+		<div class="h-body">	
+			
+				<div class="motto text-shadow-pop-left">
+					<p class="content" id="motto-content">获取中...</p>
+					<p>-<p>
+					<p class="author" id="motto-author">Just a minute...</p>
+				</div>
+			
+		</div>
+		
+		<!-- others: such as time... -->			
+		<div class="h-footer">
+			<a href="javascript:;" id="read-more" class="scroll-down">
+				<span class="icon-anchor1 animation-scroll-down"></span>
+			</a>
+		</div>
+	</div>
+</header>
+
+<div id="navigation-hide">
+	<!-- Progress bar -->
+	<div id="progress-bar"></div>
+
+	<!-- Progress percent -->
+	<div id="progress-percentage"><span>0.0%</span></div>
+
+	<div class="toc-switch"><span class="switch-button">目录</span></div>
+
+	<!-- Page title -->
+	<div align="center">
+		
+			标签
+		
+	</div>
+
+	
+	
+
+	<!-- Nav trigger for navigation-H-->
+	<a class="nav-trigger"><span></span></a>
+</div>
+
+<!-- Navigation in div(id="navigation-H") -->
+<nav class="nav-container" id="cd-nav">
+	<div class="nav-header">
+		<span class="logo"> 
+			<img src="/img/logo.png">
+		</span>
+		<a href="javascript:;" class="nav-close"></a>
+	</div>
+	
+	<div class="nav-body">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_self">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_self">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_self">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_self">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_self">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_self">相册</a>
+		</li>
+		
+	
+
+	
+		<li class="menu-search">
+			<a href="javascript:;" class="popup-trigger">搜索</a>
+		</li>
+	
+</ul>
+	</div>
+	
+	<div class="nav-footer">
+		<ul id="global-social">
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-one"><span class="path1"></span><span class="path2"></span></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-zhihu"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-github"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-sina-weibo "></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-pinterest2"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-instagram"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="http://github.com/" target="_blank">
+				<span class="icon-twitter"></span>
+			</a>
+		</li>
+	
+		<li>
+			<a href="/atom.xml" target="_blank">
+				<span class="icon-rss"></span>
+			</a>
+		</li>
+			
+</ul>
+
+	</div>
+</nav>
+			
+		<!--main-->
+		<main>
+			<!--
+	时间：2018-11-08
+	描述：The archive module refers to 'https://1984n.win/archives-post/' & 'http://1900.live/one-theme/', include js、css. Relevant rights reserved by them! 
+-->
+<div class="layout-archive">
+    <div class="i-container">
+        <i class="fa fa-book i-tag">
+			<!--
+	Thec counter of post number  for archive.ejs.  
+-->
+
+		 
+	
+	想见你 1 
+		
+
+		</i>
+    </div>
+
+    <!-- Archive by year, display in page( archive ) -->
+    <div id="layout-archive-year" style="display: 
+        
+        
+        <ul>
+            
+                <li>
+                    <a href="/sport/baseball/">
+            			<em year="2020">
+                            01-12
+                        </em>
+        			    <span itemprop="name">
+                            &lt;竞技&gt; 棒球基础知识普及
+                        </span>
+        			    
+                			<a href="/tags/%E4%BD%93%E8%82%B2/" class="tag">
+                				体育
+                			</a>
+                        
+                			<a href="/tags/%E6%A3%92%E7%90%83/" class="tag">
+                				棒球
+                			</a>
+                        
+                			<a href="/tags/%E9%95%BF%E7%9F%A5%E8%AF%86/" class="tag">
+                				长知识
+                			</a>
+                        
+                			<a href="/tags/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F/" class="tag">
+                				棒球大联盟
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/kpl/kpl-day1/">
+            			<em year="2020">
+                            01-12
+                        </em>
+        			    <span itemprop="name">
+                            &lt;看评论&gt; 柯南这首片尾曲的歌词
+                        </span>
+        			    
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/" class="tag">
+                				每日一冷
+                			</a>
+                        
+                			<a href="/tags/%E7%9C%8B%E8%AF%84%E8%AE%BA/" class="tag">
+                				看评论
+                			</a>
+                        
+                			<a href="/tags/%E6%9F%AF%E5%8D%97/" class="tag">
+                				柯南
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/hello-world/">
+            			<em year="2020">
+                            01-11
+                        </em>
+        			    <span itemprop="name">
+                            网站更新说明
+                        </span>
+        			    
+                			<a href="/tags/Other/" class="tag">
+                				Other
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/zgzb/qifengle/">
+            			<em year="2020">
+                            01-09
+                        </em>
+        			    <span itemprop="name">
+                            &lt;镇馆之宝&gt; 起风了-港影演员群像
+                        </span>
+        			    
+                			<a href="/tags/B%E7%AB%99/" class="tag">
+                				B站
+                			</a>
+                        
+                			<a href="/tags/%E5%BD%B1%E8%A7%86/" class="tag">
+                				影视
+                			</a>
+                        
+                			<a href="/tags/%E8%B5%B7%E9%A3%8E%E4%BA%86/" class="tag">
+                				起风了
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/happy/happy-day1/">
+            			<em year="2020">
+                            01-08
+                        </em>
+        			    <span itemprop="name">
+                            &lt;每日一冷&gt; 兔美酱的名推理
+                        </span>
+        			    
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/" class="tag">
+                				每日一冷
+                			</a>
+                        
+                			<a href="/tags/%E6%97%A5%E5%92%8C/" class="tag">
+                				日和
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/pianke/pk-day4/">
+            			<em year="2020">
+                            01-07
+                        </em>
+        			    <span itemprop="name">
+                            &lt;片刻&gt; 你看，我清峻而唯美的心
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/movie-capture/dyjt-xjn/">
+            			<em year="2020">
+                            01-06
+                        </em>
+        			    <span itemprop="name">
+                            &lt;电影截图&gt; 想见你
+                        </span>
+        			    
+                			<a href="/tags/%E6%83%B3%E8%A7%81%E4%BD%A0/" class="tag">
+                				想见你
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/finance/finance-web-collection/">
+            			<em year="2020">
+                            01-06
+                        </em>
+        			    <span itemprop="name">
+                            &lt;理财&gt; 不知道这些网站，别说你会理财【转载】
+                        </span>
+        			    
+                			<a href="/tags/%E5%8A%9B%E5%93%A5%E8%AF%B4%E7%90%86%E8%B4%A2/" class="tag">
+                				力哥说理财
+                			</a>
+                        
+                			<a href="/tags/%E7%90%86%E8%B4%A2/" class="tag">
+                				理财
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/goddess/goddess-day4/">
+            			<em year="2020">
+                            01-05
+                        </em>
+        			    <span itemprop="name">
+                            &lt;妹子图&gt; 岛国的100位绝色美人
+                        </span>
+        			    
+                			<a href="/tags/%E7%A6%8F%E5%88%A9/" class="tag">
+                				福利
+                			</a>
+                        
+                			<a href="/tags/%E5%85%BB%E7%9C%BC/" class="tag">
+                				养眼
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/daily-meditation/mryc-day6/">
+            			<em year="2020">
+                            01-05
+                        </em>
+        			    <span itemprop="name">
+                            &lt;每日一禅&gt;  阳光穿过你，却改变了自己的方向
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/" class="tag">
+                				每日一禅
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/music/2020-bj-concert/">
+            			<em year="2020">
+                            01-05
+                        </em>
+        			    <span itemprop="name">
+                            &lt;音乐&gt; 2020年北京演唱会汇总
+                        </span>
+        			    
+                			<a href="/tags/%E6%BC%94%E5%94%B1%E4%BC%9A/" class="tag">
+                				演唱会
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/goddess/goddess-day3/">
+            			<em year="2020">
+                            01-02
+                        </em>
+        			    <span itemprop="name">
+                            &lt;妹子图&gt; 今后一定会有好事发生的
+                        </span>
+        			    
+                			<a href="/tags/%E7%A6%8F%E5%88%A9/" class="tag">
+                				福利
+                			</a>
+                        
+                			<a href="/tags/%E5%85%BB%E7%9C%BC/" class="tag">
+                				养眼
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/pianke/pk-day3/">
+            			<em year="2020">
+                            01-01
+                        </em>
+        			    <span itemprop="name">
+                            &lt;片刻&gt; 其实TA没那么喜欢你
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/daily-meditation/mryc-day5/">
+            			<em year="2020">
+                            01-01
+                        </em>
+        			    <span itemprop="name">
+                            &lt;每日一禅&gt;  生命需要主动设计
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/" class="tag">
+                				每日一禅
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/goddess/goddess-day2/">
+            			<em year="2019">
+                            12-30
+                        </em>
+        			    <span itemprop="name">
+                            &lt;妹子图&gt; 所以暂时将你眼睛闭了起来
+                        </span>
+        			    
+                			<a href="/tags/%E7%A6%8F%E5%88%A9/" class="tag">
+                				福利
+                			</a>
+                        
+                			<a href="/tags/%E5%85%BB%E7%9C%BC/" class="tag">
+                				养眼
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/daily-meditation/mryc-day4/">
+            			<em year="2019">
+                            12-29
+                        </em>
+        			    <span itemprop="name">
+                            &lt;每日一禅&gt;  如果有来生，我要做一棵树
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/" class="tag">
+                				每日一禅
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/tools/tools-onenote/">
+            			<em year="2019">
+                            12-29
+                        </em>
+        			    <span itemprop="name">
+                            &lt;效率&gt; OneNoteWebClipper
+                        </span>
+        			    
+                			<a href="/tags/%E6%95%88%E7%8E%87/" class="tag">
+                				效率
+                			</a>
+                        
+                			<a href="/tags/chrome/" class="tag">
+                				chrome
+                			</a>
+                        
+                			<a href="/tags/crx/" class="tag">
+                				crx
+                			</a>
+                        
+                			<a href="/tags/%E6%8F%92%E4%BB%B6/" class="tag">
+                				插件
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/goddess/goddess-day1/">
+            			<em year="2019">
+                            12-28
+                        </em>
+        			    <span itemprop="name">
+                            &lt;妹子图&gt; 流量就靠你了
+                        </span>
+        			    
+                			<a href="/tags/%E7%A6%8F%E5%88%A9/" class="tag">
+                				福利
+                			</a>
+                        
+                			<a href="/tags/%E5%85%BB%E7%9C%BC/" class="tag">
+                				养眼
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/hexo/1.3/">
+            			<em year="2019">
+                            12-26
+                        </em>
+        			    <span itemprop="name">
+                            &lt;hexo&gt;  1.3 【进阶】配置github的ssh密钥
+                        </span>
+        			    
+                			<a href="/tags/hexo/" class="tag">
+                				hexo
+                			</a>
+                        
+                			<a href="/tags/github/" class="tag">
+                				github
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/pianke/pk-day2/">
+            			<em year="2019">
+                            12-25
+                        </em>
+        			    <span itemprop="name">
+                            &lt;片刻&gt; 一个人的义无反顾 —— 尘埃
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/hexo/1.2/">
+            			<em year="2019">
+                            12-25
+                        </em>
+        			    <span itemprop="name">
+                            &lt;hexo&gt;  1.2 使用github desktop开发项目
+                        </span>
+        			    
+                			<a href="/tags/hexo/" class="tag">
+                				hexo
+                			</a>
+                        
+                			<a href="/tags/github/" class="tag">
+                				github
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/work/nianjia/">
+            			<em year="2019">
+                            12-25
+                        </em>
+        			    <span itemprop="name">
+                            &lt;学点法&gt; 年假怎么算？
+                        </span>
+        			    
+                			<a href="/tags/%E5%AD%A6%E7%82%B9%E6%B3%95/" class="tag">
+                				学点法
+                			</a>
+                        
+                			<a href="/tags/%E8%81%8C%E5%9C%BA/" class="tag">
+                				职场
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/hexo/1.1/">
+            			<em year="2019">
+                            12-24
+                        </em>
+        			    <span itemprop="name">
+                            &lt;hexo&gt;  1.1创建github账号、项目
+                        </span>
+        			    
+                			<a href="/tags/hexo/" class="tag">
+                				hexo
+                			</a>
+                        
+                			<a href="/tags/github/" class="tag">
+                				github
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/hexo/hexo-nav/">
+            			<em year="2019">
+                            12-24
+                        </em>
+        			    <span itemprop="name">
+                            &lt;hexo&gt;  hexo建站教程导航页
+                        </span>
+        			    
+                			<a href="/tags/hexo/" class="tag">
+                				hexo
+                			</a>
+                        
+                			<a href="/tags/github/" class="tag">
+                				github
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/movie-capture/dyjt-wzwldn/">
+            			<em year="2019">
+                            12-23
+                        </em>
+        			    <span itemprop="name">
+                            &lt;电影截图&gt; 我在未来等你
+                        </span>
+        			    
+                			<a href="/tags/%E6%88%91%E5%9C%A8%E6%9C%AA%E6%9D%A5%E7%AD%89%E4%BD%A0/" class="tag">
+                				我在未来等你
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/daily-meditation/mryc-day3/">
+            			<em year="2019">
+                            12-22
+                        </em>
+        			    <span itemprop="name">
+                            &lt;每日一禅&gt;  时光机
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/" class="tag">
+                				每日一禅
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/pianke/pk-day1/">
+            			<em year="2019">
+                            12-22
+                        </em>
+        			    <span itemprop="name">
+                            &lt;片刻&gt; 今夜能否再梦见你？
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/movie-capture/dyjt-lmdtz/">
+            			<em year="2019">
+                            12-22
+                        </em>
+        			    <span itemprop="name">
+                            &lt;电影截图&gt; 浪漫的体质
+                        </span>
+        			    
+                			<a href="/tags/%E6%B5%AA%E6%BC%AB%E7%9A%84%E4%BD%93%E8%B4%A8/" class="tag">
+                				浪漫的体质
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/daily-meditation/mryc-day2/">
+            			<em year="2019">
+                            12-21
+                        </em>
+        			    <span itemprop="name">
+                            &lt;每日一禅&gt;  做个可以向下兼容的人
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/" class="tag">
+                				每日一禅
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/daily-meditation/mryc-day1/">
+            			<em year="2019">
+                            12-19
+                        </em>
+        			    <span itemprop="name">
+                            &lt;每日一禅&gt; 不主动不是因为不在乎
+                        </span>
+        			    
+                			<a href="/tags/%E5%BF%83%E6%83%85/" class="tag">
+                				心情
+                			</a>
+                        
+                			<a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/" class="tag">
+                				每日一禅
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/movie-capture/dyjt-qhd1988/">
+            			<em year="2019">
+                            12-19
+                        </em>
+        			    <span itemprop="name">
+                            &lt;电影截图&gt; 请回答1988
+                        </span>
+        			    
+                			<a href="/tags/%E8%AF%B7%E5%9B%9E%E7%AD%941988/" class="tag">
+                				请回答1988
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/front-end/it-jquery-selector/">
+            			<em year="2019">
+                            12-18
+                        </em>
+        			    <span itemprop="name">
+                            &lt;Js&gt; Jquery选择器介绍
+                        </span>
+        			    
+                			<a href="/tags/jquery/" class="tag">
+                				jquery
+                			</a>
+                        
+                			<a href="/tags/html/" class="tag">
+                				html
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/linux/it-linux-zip/">
+            			<em year="2019">
+                            12-18
+                        </em>
+        			    <span itemprop="name">
+                            &lt;Linux&gt; linux下文件的压缩解压
+                        </span>
+        			    
+                			<a href="/tags/linux/" class="tag">
+                				linux
+                			</a>
+                        
+                			<a href="/tags/zip/" class="tag">
+                				zip
+                			</a>
+                        
+                			<a href="/tags/tar/" class="tag">
+                				tar
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/tools/tools-word2photo/">
+            			<em year="2019">
+                            01-05
+                        </em>
+        			    <span itemprop="name">
+                            &lt;效率&gt;  无损提取word中全部图片
+                        </span>
+        			    
+                			<a href="/tags/%E6%95%88%E7%8E%87/" class="tag">
+                				效率
+                			</a>
+                        
+                			<a href="/tags/word/" class="tag">
+                				word
+                			</a>
+                        
+                			<a href="/tags/%E5%8A%9E%E5%85%AC/" class="tag">
+                				办公
+                			</a>
+                        
+                			<a href="/tags/%E5%9B%BE%E7%89%87/" class="tag">
+                				图片
+                			</a>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/IT/tools/tools-postman/">
+            			<em year="2000">
+                            01-01
+                        </em>
+        			    <span itemprop="name">
+                            &lt;效率&gt; postman团队合作
+                        </span>
+        			    
+                			<a href="/tags/%E6%95%88%E7%8E%87/" class="tag">
+                				效率
+                			</a>
+                        
+                			<a href="/tags/postman/" class="tag">
+                				postman
+                			</a>
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+
+     <!-- Archive by month, called by page( categories, tags... ) -->
+    <div id="layout-archive-month" style="display: 
+         
+            block"> 
+        
+
+        
+        
+            
+
+            
+                
+                <h3 class="archive-year">
+                    <!-- <a href="/archives/2020/01"> -->
+                    <a>
+                        2020 - 01
+                    </a>
+                </h3>
+            
+
+            <ul>
+                <li>
+                    <a href="/movie-capture/dyjt-xjn/">
+                        <em>
+                            01-06
+                        </em>
+                        <span itemprop="name">
+                            &lt;电影截图&gt; 想见你
+                        </span>
+                        
+                            <a href="/tags/%E6%83%B3%E8%A7%81%E4%BD%A0/" class="tag">
+                                想见你
+                            </a>
+                               
+                    </a>
+                </li>
+            </ul>
+        
+    </div>
+
+    
+        
+	
+
+	
+
+    
+</div>
+		</main>
+
+		<!--footer-->
+		<footer>
+	<!-- <div id="navigation-show">
+		<ul id="global-nav">
+	
+		<li class="menu-home">
+			<a href="/" class="menu-item-home" target="_self">主页</a>
+		</li>
+		
+	
+		<li class="menu-archive">
+			<a href="/archives" class="menu-item-archive" target="_self">归档</a>
+		</li>
+		
+	
+		<li class="menu-categories">
+			<a href="/categories" class="menu-item-categories" target="_self">分类</a>
+		</li>
+		
+	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags" target="_self">标签</a>
+		</li>
+		
+	
+		<li class="menu-about">
+			<a href="/about" class="menu-item-about" target="_self">关于</a>
+		</li>
+		
+	
+		<li class="menu-gallery">
+			<a href="/gallery" class="menu-item-gallery" target="_self">相册</a>
+		</li>
+		
+	
+
+	
+		<li class="menu-search">
+			<a href="javascript:;" class="popup-trigger">搜索</a>
+		</li>
+	
+</ul>
+	</div> -->
+
+	<div class="copyright">
+		<p>
+			 
+				&copy;2019 - 2020, content by Sariay. All Rights Reserved.
+			
+			
+				<!-- <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay. -->
+			
+		</p>
+		<p>
+			<a href="javascript:zh_tran('s');" class="zh_click" id="zh_click_s">简体</a> 
+			<a href="javascript:zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a>			
+		</p>
+		<p>
+			
+
+	<!-- busuanzi -->
+	<!-- busuanzi -->
+
+		
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	
+
+		<span id="busuanzi_container_site_pv">
+	    	本站总访问量<span id="busuanzi_value_site_pv"></span>次
+		</span>
+
+		<span id="busuanzi_container_site_uv">
+	  		本站访客数<span id="busuanzi_value_site_uv"></span>人次
+		</span>
+		
+	
+
+
+
+
+
+				
+		</p>
+	</div>		
+</footer>
+		
+	<!-- Local or hitokoto! -->
+
+	
+<script src="/plugin/motto/motto.js"></script>
+
+	
+	<script type="text/javascript">
+		(function motto(){
+			let mottoText = getMingYanContent().split('</br> - </br>'),
+			
+			mottoTextContent = mottoText[0]?mottoText[0]:'请刷新...',
+			
+			mottoTextFrom = mottoText[1]?mottoText[1]:'one/一个';
+			
+			mottoTextContent = mottoTextContent.trim().substring(0, 100);
+		
+			$("#motto-content").html( mottoTextContent);
+			$("#motto-author").html( mottoTextFrom  );
+		})();	
+	</script>	
+
+
+
+<!-- love effect -->
+
+	
+<script src="/plugin/love/love.js"></script>
+
+
+
+<!-- back to top -->
+
+	<div id="totop">
+	<span class="icon-circle-up"></span>
+</div>
+
+
+
+<!-- site analysis -->
+
+
+	<!-- site-analysis -->
+	
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+
+	
+	
+	
+	
+ 
+
+<!-- leancloud -->
+
+
+	<!-- leancloud -->
+	<!--
+	时间：2018-11-27
+	描述：
+		文章访问量：visitors
+		文章喜欢量：likes	
+		文章排行榜：topNPost
+		其他得说明：
+			01-Cookie相关的函数 
+				https://blog.csdn.net/somehow1002/article/details/78511541（Author：somehow1002）
+			02-visitors相关的函数 
+				https://blog.csdn.net/u013553529/article/details/63357382（Author：爱博客大伯）
+				https://notes.doublemine.me/2015-10-21-为NexT主题添加文章阅读量统计功能.html（Author：夏末）
+			03-topNPost相关的函数
+				https://hoxis.github.io/hexo-next-read-rank.html（Author：hoxis）
+			04-likes相关的函数，
+				参考了01 & 02进行简单的设计与实现
+-->
+
+
+  
+<script src="/plugin/leancloud/av-min.js"></script>
+<script src="/js/leancloud-count.js"></script>
+<script src="/js/myjs.js"></script>
+
+
+	
+
+  
+
+	<!--
+	时间：2018-10-3
+	描述：
+		插件名称：hexo-generator-search-zip
+		插件来源: https://github.com/SuperKieran/hexo-generator-search-zip
+		代码参考：https://github.com/SuperKieran/TKL/blob/master/layout/_partial/search.ejs(Include: js & css)	
+-->
+<div class="popup search-popup local-search-popup scrollbar" >
+	<div class="local-search-container">
+		<span class="popup-btn-close">
+      		ESC
+   		</span>
+		<div class="local-search-header">
+			<div class="input-prompt">				
+			</div>
+			<input autocomplete="off" placeholder="Search..." type="text" id="local-search-input">
+		</div>
+		<div class="local-search-body">
+			<div id="local-search-output"></div>
+		</div>
+		<div class="local-search-footer">
+			<div class="topN-post">				
+				
+
+   
+	<div id="topN">
+		<div class="topN-title" data-title= "热门文章"></div> 
+	</div>
+	
+    <script>
+        var limitCount = 10;
+        if( $('#topN').length ){
+            setTimeout(function() {
+                topNPost(limitCount);
+			}, 3000);
+        }
+    </script>
+   
+								
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="/plugin/search/ziploader.js"></script>
+<script src="/js/search.js"></script>
+
+
+<script type="text/javascript">
+	var search_path = 'search.json',
+		zip_Path = '/search.zip',
+		version_Path = '/searchVersion.txt',
+		input_Trigger = 'auto',
+		top_N = '2';
+
+	themeLocalSearch({
+		search_path, 
+		zip_Path, 
+		version_Path, 
+		input_Trigger, 
+		top_N
+	});
 </script>
 
+
+
+<script src="/plugin/chinese/chinese.js"></script>
+<script src="/plugin/imagelazyloader/yall.min.js"></script>
+<script src="/plugin/imageloaded/imagesloaded.pkgd.min.js"></script>
+<script src="/plugin/nicescroll/jquery.nicescroll.js"></script>
+<script src="/plugin/resizediv/resizediv.js"></script>
+<script src="/js/main.js"></script>
+
+	</body>	
 </html>
