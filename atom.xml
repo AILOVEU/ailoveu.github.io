@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ailoveu.github.io/"/>
-  <updated>2020-01-16T15:09:57.504Z</updated>
+  <updated>2020-01-18T11:42:42.662Z</updated>
   <id>http://ailoveu.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&lt;效率&gt; utools【原创】</title>
+    <link href="http://ailoveu.github.io/tools/tools-utools/"/>
+    <id>http://ailoveu.github.io/tools/tools-utools/</id>
+    <published>2020-01-17T16:00:00.000Z</published>
+    <updated>2020-01-18T11:42:42.662Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="它是什么？">它是什么？</h3><p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。<br>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。(来自官方的介绍)</p><h3 id="它能做什么？">它能做什么？</h3><p>utools是一个平台，它上面有翻译、文件查找、aira2下载工具等等工具，由于是一个开放平台，所以只要开发者足够多的，它可以做任何“小”事。我对它的定位更像微信的小程序。</p><h3 id="它怎么用？">它怎么用？</h3><ol><li><p>首先下载<br><a href="https://www.u.tools" target="_blank" rel="noopener">utools</a></p></li><li><p>安装后打开，不用它就会隐藏</p></li><li><p>使用组合键ALT+SPACE，在任意窗口调出程序<br><a href="https://imgchr.com/i/1pbMPf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbMPf.md.png" alt="1pbMPf.md.png"></a></p></li><li><p>点击黑色按钮，进入插件市场（免费）</p></li></ol><p><a href="https://imgchr.com/i/1pb1xg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pb1xg.md.png" alt="1pb1xg.md.png"></a></p><ol start="5"><li>安装人民币大小写转换工具</li></ol><p><a href="https://imgchr.com/i/1pbQG8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbQG8.md.png" alt="1pbQG8.md.png"></a></p><p><a href="https://imgchr.com/i/1pblRS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pblRS.md.png" alt="1pblRS.md.png"></a></p><ol start="6"><li><p>重启utools</p></li><li><p>按住ALT+SPACE，输入任意金额，如3154</p></li></ol><p><a href="https://imgchr.com/i/1pbuIP" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbuIP.md.png" alt="1pbuIP.md.png"></a></p><p><a href="https://imgchr.com/i/1pbnat" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbnat.md.png" alt="1pbnat.md.png"></a></p><p>值得注意的是，utools是根据插件的功能关键字来显示的，安装完一个插件后，如文件对比，可以搜索“文件比较”、“比较”，打开此插件。</p><p><strong>像文件搜索、翻译可以直接搜索，不需要打开插件后二次输入！</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      它值得独占你的ALT+SPACE
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://ailoveu.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="效率" scheme="http://ailoveu.github.io/tags/%E6%95%88%E7%8E%87/"/>
+    
+  </entry>
   
   <entry>
     <title>&lt;每日一禅&gt;  我们必须全力以赴</title>
@@ -97,8 +122,8 @@
   
   <entry>
     <title>&lt;效率&gt; postman团队合作【原创】</title>
-    <link href="http://ailoveu.github.io/IT/tools/tools-postman/"/>
-    <id>http://ailoveu.github.io/IT/tools/tools-postman/</id>
+    <link href="http://ailoveu.github.io/tools/tools-postman/"/>
+    <id>http://ailoveu.github.io/tools/tools-postman/</id>
     <published>2020-01-13T16:00:00.000Z</published>
     <updated>2020-01-14T14:50:02.259Z</updated>
     
@@ -212,9 +237,9 @@
     <link href="http://ailoveu.github.io/hello-world/"/>
     <id>http://ailoveu.github.io/hello-world/</id>
     <published>2020-01-10T16:00:00.000Z</published>
-    <updated>2020-01-14T14:51:03.873Z</updated>
+    <updated>2020-01-18T11:49:23.579Z</updated>
     
-    <content type="html"><![CDATA[<table><thead><tr><th style="text-align:left">时间</th><th style="text-align:left">更新内容</th></tr></thead><tbody><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">原创内容增加标识</td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">随机主页图片</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">调整主页图片的显示比例</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">配置主题喜欢、评论、访问统计、本地搜索功能</td></tr><tr><td style="text-align:left">2020/1/9</td><td style="text-align:left">更换新主题</td></tr><tr><td style="text-align:left">2020/1/8</td><td style="text-align:left">解决post页面不居中的问题</td></tr><tr><td style="text-align:left">2019/12/18</td><td style="text-align:left">解决首页文章在手机上显示异常的问题</td></tr><tr><td style="text-align:left">2020/1/7</td><td style="text-align:left">项目上线</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<table><thead><tr><th style="text-align:left">时间</th><th style="text-align:left">更新内容</th></tr></thead><tbody><tr><td style="text-align:left">2020/1/18</td><td style="text-align:left">导航页图片添加外边框</td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">原创内容增加标识</td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">随机主页图片</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">调整主页图片的显示比例</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">配置主题喜欢、评论、访问统计、本地搜索功能</td></tr><tr><td style="text-align:left">2020/1/9</td><td style="text-align:left">更换新主题</td></tr><tr><td style="text-align:left">2020/1/8</td><td style="text-align:left">解决post页面不居中的问题</td></tr><tr><td style="text-align:left">2019/12/18</td><td style="text-align:left">解决首页文章在手机上显示异常的问题</td></tr><tr><td style="text-align:left">2020/1/7</td><td style="text-align:left">项目上线</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
@@ -406,9 +431,9 @@
     <link href="http://ailoveu.github.io/music/2020-bj-concert/"/>
     <id>http://ailoveu.github.io/music/2020-bj-concert/</id>
     <published>2020-01-05T05:32:00.000Z</published>
-    <updated>2020-01-14T14:49:53.666Z</updated>
+    <updated>2020-01-18T11:54:28.851Z</updated>
     
-    <content type="html"><![CDATA[<p><em>消息来源黄河票务、微博、大麦</em></p><table><thead><tr><th style="text-align:left">歌手</th><th style="text-align:center">时间</th><th style="text-align:center">地点</th><th style="text-align:center">大麦关注度</th><th style="text-align:center">微博热度</th><th style="text-align:right">状态</th></tr></thead><tbody><tr><td style="text-align:left">张韶涵</td><td style="text-align:center">2-29</td><td style="text-align:center">凯迪拉克</td><td style="text-align:center">11.5</td><td style="text-align:center">1876</td><td style="text-align:right">大麦在售</td></tr><tr><td style="text-align:left">孙燕姿</td><td style="text-align:center">4-25</td><td style="text-align:center">工人体院馆</td><td style="text-align:center">7.4</td><td style="text-align:center">2493</td><td style="text-align:right">黄河票务公布</td></tr><tr><td style="text-align:left">刘德华</td><td style="text-align:center">5-1</td><td style="text-align:center">凯迪拉克</td><td style="text-align:center">19</td><td style="text-align:center">N</td><td style="text-align:right">大麦1月13日12:18开枪</td></tr><tr><td style="text-align:left">陈奕迅</td><td style="text-align:center">7-18/19</td><td style="text-align:center">N</td><td style="text-align:center">52.2</td><td style="text-align:center">N</td><td style="text-align:right">微博公布</td></tr><tr><td style="text-align:left">周杰伦</td><td style="text-align:center">8-21</td><td style="text-align:center">凯迪拉克</td><td style="text-align:center">212.5</td><td style="text-align:center">N</td><td style="text-align:right">黄河票务公布</td></tr><tr><td style="text-align:left">田馥甄</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">12.5</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">薛之谦</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">68.8</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">林俊杰</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">130.7</td><td style="text-align:center">5312</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">张学友</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">45.9</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">邓紫棋</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">16.8</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">岚</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">SHE</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">1.7</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">王菲</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">3</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">许巍</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">9.1</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">梁静茹</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">7.3</td><td style="text-align:center">1625</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">刘若英</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">6.2</td><td style="text-align:center">2410</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">张信哲</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">5.8</td><td style="text-align:center">279</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">吴青峰</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">8.1</td><td style="text-align:center">1527</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">周传雄</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">2</td><td style="text-align:center">100</td><td style="text-align:right">N</td></tr></tbody></table><p><em>最后更新于：2020-1-5 13:35</em></p>]]></content>
+    <content type="html"><![CDATA[<p><em>消息来源黄河票务、微博、大麦</em></p><table><thead><tr><th style="text-align:left">歌手</th><th style="text-align:center">时间</th><th style="text-align:center">地点</th><th style="text-align:center">大麦关注度</th><th style="text-align:center">微博热度</th><th style="text-align:right">状态</th></tr></thead><tbody><tr><td style="text-align:left">张韶涵</td><td style="text-align:center">2-29</td><td style="text-align:center">凯迪拉克</td><td style="text-align:center">11.5</td><td style="text-align:center">1876</td><td style="text-align:right">已购买</td></tr><tr><td style="text-align:left">刘德华</td><td style="text-align:center">5-1</td><td style="text-align:center">凯迪拉克</td><td style="text-align:center">19</td><td style="text-align:center">N</td><td style="text-align:right">大麦已售罄</td></tr><tr><td style="text-align:left">孙燕姿</td><td style="text-align:center">6-27</td><td style="text-align:center">凯迪拉克</td><td style="text-align:center">7.4</td><td style="text-align:center">2493</td><td style="text-align:right">黄河票务公布</td></tr><tr><td style="text-align:left">陈奕迅</td><td style="text-align:center">7-18/19</td><td style="text-align:center">N</td><td style="text-align:center">52.2</td><td style="text-align:center">N</td><td style="text-align:right">微博公布</td></tr><tr><td style="text-align:left">周杰伦</td><td style="text-align:center">8-21</td><td style="text-align:center">凯迪拉克</td><td style="text-align:center">212.5</td><td style="text-align:center">N</td><td style="text-align:right">黄河票务公布</td></tr><tr><td style="text-align:left">田馥甄</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">12.5</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">薛之谦</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">68.8</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">林俊杰</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">130.7</td><td style="text-align:center">5312</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">张学友</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">45.9</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">邓紫棋</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">16.8</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">岚</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">SHE</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">1.7</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">王菲</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">3</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">许巍</td><td style="text-align:center">N</td><td style="text-align:center">北京751时尚广场东区故事</td><td style="text-align:center">9.1</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">梁静茹</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">7.3</td><td style="text-align:center">1625</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">刘若英</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">6.2</td><td style="text-align:center">2410</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">张信哲</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">5.8</td><td style="text-align:center">279</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">吴青峰</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">8.1</td><td style="text-align:center">1527</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">周传雄</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">2</td><td style="text-align:center">100</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">李宇春</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">张信哲</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">周深</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">蔡依林</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">韩红</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">权志龙</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr><tr><td style="text-align:left">周华健</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:center">N</td><td style="text-align:right">N</td></tr></tbody></table><p><em>最后手动更新于：2020-1-18 19:50</em></p>]]></content>
     
     <summary type="html">
     
@@ -496,31 +521,6 @@
       <category term="心情" scheme="http://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
       <category term="每日一禅" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&lt;妹子图&gt; 所以暂时将你眼睛闭了起来</title>
-    <link href="http://ailoveu.github.io/goddess/goddess-day2/"/>
-    <id>http://ailoveu.github.io/goddess/goddess-day2/</id>
-    <published>2019-12-30T15:16:00.000Z</published>
-    <updated>2020-01-10T12:36:59.749Z</updated>
-    
-    <content type="html"><![CDATA[  <div align="center"><p><a href="https://imgchr.com/i/llYwLD" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYwLD.md.jpg" alt="llYwLD.md.jpg"></a></p><p><a href="https://imgchr.com/i/llYyFA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYyFA.png" alt="llYyFA.png"></a></p><p><a href="https://imgchr.com/i/llYDdH" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYDdH.md.jpg" alt="llYDdH.md.jpg"></a></p><p><a href="https://imgchr.com/i/llYWy8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYWy8.png" alt="llYWy8.png"></a></p><p><a href="https://imgchr.com/i/llY6JI" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llY6JI.md.jpg" alt="llY6JI.md.jpg"></a></p><p><a href="https://imgchr.com/i/llYcWt" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYcWt.jpg" alt="llYcWt.jpg"></a></p><p><a href="https://imgchr.com/i/llY2SP" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llY2SP.jpg" alt="llY2SP.jpg"></a></p><p><a href="https://imgchr.com/i/llYRQf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYRQf.jpg" alt="llYRQf.jpg"></a></p><p><a href="https://imgchr.com/i/llYfOS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYfOS.jpg" alt="llYfOS.jpg"></a></p><p><a href="https://imgchr.com/i/llYqS0" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/12/30/llYqS0.md.jpg" alt="llYqS0.md.jpg"></a></p>  </div>]]></content>
-    
-    <summary type="html">
-    
-      无
-    
-    </summary>
-    
-    
-      <category term="妹子图" scheme="http://ailoveu.github.io/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/"/>
-    
-    
-      <category term="福利" scheme="http://ailoveu.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
-    
-      <category term="养眼" scheme="http://ailoveu.github.io/tags/%E5%85%BB%E7%9C%BC/"/>
     
   </entry>
   
