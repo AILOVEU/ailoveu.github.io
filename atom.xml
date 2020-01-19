@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ailoveu.github.io/"/>
-  <updated>2020-01-18T11:42:42.662Z</updated>
+  <updated>2020-01-19T14:57:38.766Z</updated>
   <id>http://ailoveu.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&lt;影视&gt; 红楼梦【原创】</title>
+    <link href="http://ailoveu.github.io/movie/TheStoryOfTheStone/"/>
+    <id>http://ailoveu.github.io/movie/TheStoryOfTheStone/</id>
+    <published>2020-01-20T15:32:00.000Z</published>
+    <updated>2020-01-19T14:57:38.766Z</updated>
+    
+    <content type="html"><![CDATA[<p>《红楼梦》又名《石头记》，描绘了一批举止见识出于须眉之上的闺阁佳人的人生百态，展现了真正的人性美和悲剧美<sup>[1]</sup>。</p><p>下面借助87版电视剧，给大家梳理下其中的人物关系：</p><blockquote><p>贾不假，白玉为堂金作马；阿房宫，三百里，住不下金陵一个史；东海缺少白玉床，龙王来请金陵王；丰年好大雪，珍珠如土金如铁。</p></blockquote><pre class="mermaid">graph TD 王府 --> 王熙凤父母 王府 --> 王夫人-贾政妻 王府 --> 薛姨妈 王熙凤父母 --> 王熙凤 薛府 --> y 史府 --> z 贾府 --> 贾演-宁国公 贾府 --> 贾源-荣国公 贾演-宁国公 --> 贾代化 贾代化 --> 贾敷 贾代化 --> 贾敬-道士</pre>]]></content>
+    
+    <summary type="html">
+    
+      花谢花飞花满天，红消香断有谁怜？
+    
+    </summary>
+    
+    
+      <category term="影视" scheme="http://ailoveu.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
+    
+    
+      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="红楼梦" scheme="http://ailoveu.github.io/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>&lt;效率&gt; utools【原创】</title>
@@ -224,11 +249,11 @@
       <category term="看评论" scheme="http://ailoveu.github.io/categories/%E7%9C%8B%E8%AF%84%E8%AE%BA/"/>
     
     
-      <category term="每日一冷" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/"/>
-    
       <category term="看评论" scheme="http://ailoveu.github.io/tags/%E7%9C%8B%E8%AF%84%E8%AE%BA/"/>
     
       <category term="柯南" scheme="http://ailoveu.github.io/tags/%E6%9F%AF%E5%8D%97/"/>
+    
+      <category term="每日一冷" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/"/>
     
   </entry>
   
@@ -237,9 +262,9 @@
     <link href="http://ailoveu.github.io/hello-world/"/>
     <id>http://ailoveu.github.io/hello-world/</id>
     <published>2020-01-10T16:00:00.000Z</published>
-    <updated>2020-01-18T11:49:23.579Z</updated>
+    <updated>2020-01-19T14:51:05.823Z</updated>
     
-    <content type="html"><![CDATA[<table><thead><tr><th style="text-align:left">时间</th><th style="text-align:left">更新内容</th></tr></thead><tbody><tr><td style="text-align:left">2020/1/18</td><td style="text-align:left">导航页图片添加外边框</td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">原创内容增加标识</td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">随机主页图片</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">调整主页图片的显示比例</td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">配置主题喜欢、评论、访问统计、本地搜索功能</td></tr><tr><td style="text-align:left">2020/1/9</td><td style="text-align:left">更换新主题</td></tr><tr><td style="text-align:left">2020/1/8</td><td style="text-align:left">解决post页面不居中的问题</td></tr><tr><td style="text-align:left">2019/12/18</td><td style="text-align:left">解决首页文章在手机上显示异常的问题</td></tr><tr><td style="text-align:left">2020/1/7</td><td style="text-align:left">项目上线</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<table><thead><tr><th style="text-align:left">时间</th><th style="text-align:center">更新内容</th><th style="text-align:right">文件</th></tr></thead><tbody><tr><td style="text-align:left">2020/1/19</td><td style="text-align:center">添加mermaid支持</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/19</td><td style="text-align:center">文章内图片根据data-scr配置打开网页还是浏览图片</td><td style="text-align:right">Annie\layout\ …\post\gallery.ejs</td></tr><tr><td style="text-align:left">2020/1/18</td><td style="text-align:center">导航页图片添加外边框</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:center">原创内容增加标识</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:center">打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:center">随机主页图片</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:center">调整主页图片的显示比例</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:center">配置主题喜欢、评论、访问统计、本地搜索功能</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/9</td><td style="text-align:center">更换新主题</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/8</td><td style="text-align:center">解决post页面不居中的问题</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2019/12/18</td><td style="text-align:center">解决首页文章在手机上显示异常的问题</td><td style="text-align:right"></td></tr><tr><td style="text-align:left">2020/1/7</td><td style="text-align:center">项目上线</td><td style="text-align:right"></td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
@@ -370,9 +395,9 @@
       <category term="理财" scheme="http://ailoveu.github.io/categories/%E7%90%86%E8%B4%A2/"/>
     
     
-      <category term="理财" scheme="http://ailoveu.github.io/tags/%E7%90%86%E8%B4%A2/"/>
-    
       <category term="力哥说理财" scheme="http://ailoveu.github.io/tags/%E5%8A%9B%E5%93%A5%E8%AF%B4%E7%90%86%E8%B4%A2/"/>
+    
+      <category term="理财" scheme="http://ailoveu.github.io/tags/%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
@@ -381,9 +406,9 @@
     <link href="http://ailoveu.github.io/goddess/goddess-day4/"/>
     <id>http://ailoveu.github.io/goddess/goddess-day4/</id>
     <published>2020-01-05T15:16:00.000Z</published>
-    <updated>2020-01-10T12:59:26.242Z</updated>
+    <updated>2020-01-19T12:32:37.621Z</updated>
     
-    <content type="html"><![CDATA[<p><em>转载</em></p>  <div align="center" ><p><a href="https://imagetwist.com/249p5lc8zk5l/1.jpg.html" target="_blank"><img src="https://img32.imagetwist.com/th/33087/249p5lc8zk5l.jpg" border="0"></a><br></p>  </div>  <div align="center" ><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavGWQ.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavtQs.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavhTK.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavJzj.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavwwV.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavDFU.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav0oT.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav6SJ.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavrYF.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavztS.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavcl9.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav2O1.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav5FO.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavHld.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavIYD.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavOmt.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavb6A.jpg"></p>  </div>]]></content>
+    <content type="html"><![CDATA[<p><em>转载</em></p>  <div align="center" ><a href="https://imagetwist.com/249p5lc8zk5l/1.jpg.html" target="_blank"><img src="https://img32.imagetwist.com/th/33087/249p5lc8zk5l.jpg"  border="0"></a><br>  </div>  <div align="center" ><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavGWQ.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavtQs.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavhTK.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavJzj.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavwwV.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavDFU.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav0oT.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav6SJ.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavrYF.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavztS.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavcl9.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav2O1.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lav5FO.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavHld.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavIYD.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavOmt.jpg"></p><p>    <img class="lazy-img" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/03/lavb6A.jpg"></p>  </div>]]></content>
     
     <summary type="html">
     
@@ -496,31 +521,6 @@
     
     
       <category term="心情" scheme="http://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&lt;每日一禅&gt;  生命需要主动设计</title>
-    <link href="http://ailoveu.github.io/daily-meditation/mryc-day5/"/>
-    <id>http://ailoveu.github.io/daily-meditation/mryc-day5/</id>
-    <published>2020-01-01T04:22:00.000Z</published>
-    <updated>2020-01-10T12:36:59.736Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>不是所有的事情，都可以用顺气自然解决。</p></blockquote><blockquote><p>生命是个可爱的东西，你不去主动设计，它也会有自己的形状，但这个形状就不会是你想要的那样。</p></blockquote><blockquote><p>想要幸福，你得追逐；想要成功，你得努力。可以停下，但别放弃；可以休息，但别一劳永逸。</p></blockquote><p><a href="https://imgchr.com/i/l8HVPO" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/01/l8HVPO.md.jpg" alt="l8HVPO.md.jpg"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      不是所有的事情，都可以用顺气自然解决
-    
-    </summary>
-    
-    
-      <category term="每日一禅" scheme="http://ailoveu.github.io/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
-    
-    
-      <category term="心情" scheme="http://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
-    
-      <category term="每日一禅" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
     
   </entry>
   

@@ -586,6 +586,31 @@ $(&quot;#d1&gt; a&quot;...
 			
 					<li>
 						<div class="relate-post-text">
+							<a class="relate-post-title" href="/movie/TheStoryOfTheStone/" title="<影视> 红楼梦【原创】">
+								<影视> 红楼梦【原创】			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								一月 20日, 2020				
+							</p>
+							<p class="relate-post-content">
+								《红楼梦》又名《石头记》，描绘了一批举止见识出于须眉之上的闺阁佳人的人生百态，展现了真正的人性美和悲剧美[1]。
+下面借助87版电视剧，给大家梳理下其中的人物关系：
+
+贾不假，白玉为堂金作马；阿房宫，三百里，住不下金陵一个史；东海缺少...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/movie/TheStoryOfTheStone/" title="<影视> 红楼梦【原创】">				
+								
+								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/19/1PC6w6.jpg" alt="&lt;影视&gt; 红楼梦【原创】"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
 							<a class="relate-post-title" href="/tools/tools-utools/" title="<效率> utools【原创】">
 								<效率> utools【原创】			
 							</a>
@@ -679,61 +704,6 @@ utools是一个...
 							<a href="/sport/baseball/" title="<竞技> 棒球基础知识普及【原创】">				
 								
 								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/12/lTNwFS.md.jpg" alt="&lt;竞技&gt; 棒球基础知识普及【原创】"/>
-							</a>
-						</div>
-					</li>												
-			
-					<li>
-						<div class="relate-post-text">
-							<a class="relate-post-title" href="/music/2020-bj-concert/" title="<音乐> 2020年北京演唱会汇总【原创】">
-								<音乐> 2020年北京演唱会汇总【原创】			
-							</a>
-							<p class="relate-post-date">
-								<i class="fa fa-calendar"></i>
-								一月 5日, 2020				
-							</p>
-							<p class="relate-post-content">
-								消息来源黄河票务、微博、大麦
-
-
-
-歌手
-时间
-地点
-大麦关注度
-微博热度
-状态
-
-
-
-
-张韶涵
-2-29
-凯迪拉克
-11.5
-1876
-已购买
-
-
-刘德华
-5-1
-凯迪拉克
-19
-N
-大麦已售罄
-
-
-孙燕姿
-6-27
-凯迪拉克
-7....
-							</p>
-						</div>
-
-						<div class="relate-post-cover">
-							<a href="/music/2020-bj-concert/" title="<音乐> 2020年北京演唱会汇总【原创】">				
-								
-								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/05/lB7Q78.jpg" alt="&lt;音乐&gt; 2020年北京演唱会汇总【原创】"/>
 							</a>
 						</div>
 					</li>												
@@ -957,11 +927,14 @@ N
 		let postTitle = titleID.text() ? titleID.text() : "No post title!";
 		
 		imageID.each(function() {
-			let imgPath = $(this).attr('src'),
+			if($(this).attr('data-src')){
+				let imgPath = $(this).attr('data-src'),
 				imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
 		
-			//给每个匹配的<img>元素打包, 即添加父元素<a>
-			$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' + postTitle + ' 》' + imgTitle + '"href="' + imgPath + '"> </a>');
+				//给每个匹配的<img>元素打包, 即添加父元素<a>
+				$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' +			 postTitle + 			 ' 》' + 			 imgTitle + 			 '"href="' + 			 imgPath + 			 '"> </a>');
+			}
+			
 		});
 		
 		videoID.each(function() {
@@ -981,7 +954,7 @@ N
 					"share",
 					"slideShow",
 					"fullScreen",
-					//"download",
+					"download",
 					"thumbs",
 					"close"
 				],
@@ -1071,8 +1044,18 @@ N
 
 				
 		</p>
-	</div>		
+	</div>
 </footer>
+
+	<script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+	<script>
+	  if (window.mermaid) {
+		mermaid.initialize({theme: 'neutral'});
+	  }
+	    //'forest',//default, forest, dark or neutral
+	</script>
+  
+
 		
 	<!-- Local or hitokoto! -->
 

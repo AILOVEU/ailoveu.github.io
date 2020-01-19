@@ -375,6 +375,10 @@
 	<span>
 		<a id="totop-post-page">返回顶部</a>
 		
+			<a href="/movie/TheStoryOfTheStone/" title="<影视> 红楼梦【原创】" rel="prev">
+				&laquo;上一篇
+			</a>
+		
 		
 			<a href="/daily-meditation/mryc-day7/" title="<每日一禅>  我们必须全力以赴" rel="next">
 				下一篇&raquo;
@@ -469,6 +473,31 @@ chrome 网上应用商店
 							<a href="/tools/tools-word2photo/" title="<效率>  无损提取word中全部图片【原创】">				
 								
 								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2019/12/29/lur7j0.md.jpg" alt="&lt;效率&gt;  无损提取word中全部图片【原创】"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/movie/TheStoryOfTheStone/" title="<影视> 红楼梦【原创】">
+								<影视> 红楼梦【原创】			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								一月 20日, 2020				
+							</p>
+							<p class="relate-post-content">
+								《红楼梦》又名《石头记》，描绘了一批举止见识出于须眉之上的闺阁佳人的人生百态，展现了真正的人性美和悲剧美[1]。
+下面借助87版电视剧，给大家梳理下其中的人物关系：
+
+贾不假，白玉为堂金作马；阿房宫，三百里，住不下金陵一个史；东海缺少...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/movie/TheStoryOfTheStone/" title="<影视> 红楼梦【原创】">				
+								
+								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/19/1PC6w6.jpg" alt="&lt;影视&gt; 红楼梦【原创】"/>
 							</a>
 						</div>
 					</li>												
@@ -665,43 +694,6 @@ File&gt;Options
 							<a href="/work/nianjia/" title="<学点法> 年假怎么算？ 【原创】">				
 								
 								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2019/12/25/liXgM9.md.jpg" alt="&lt;学点法&gt; 年假怎么算？ 【原创】"/>
-							</a>
-						</div>
-					</li>												
-			
-					<li>
-						<div class="relate-post-text">
-							<a class="relate-post-title" href="/IT/hexo/1.1/" title="<hexo>  1.1创建github账号、项目【原创】">
-								<hexo>  1.1创建github账号、项目【原创】			
-							</a>
-							<p class="relate-post-date">
-								<i class="fa fa-calendar"></i>
-								十二月 24日, 2019				
-							</p>
-							<p class="relate-post-content">
-								回到导航页
-
-电脑安装git
-
-git
-
-登录/注册 github网页
-
-github
-
-
-登录后，点击右上角加号，点击New repository
-
-
-
-填写Repository name，用户名.github.io，如ailike...
-							</p>
-						</div>
-
-						<div class="relate-post-cover">
-							<a href="/IT/hexo/1.1/" title="<hexo>  1.1创建github账号、项目【原创】">				
-								
-								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2019/12/24/l9ObLV.md.jpg" alt="&lt;hexo&gt;  1.1创建github账号、项目【原创】"/>
 							</a>
 						</div>
 					</li>												
@@ -925,11 +917,14 @@ github
 		let postTitle = titleID.text() ? titleID.text() : "No post title!";
 		
 		imageID.each(function() {
-			let imgPath = $(this).attr('src'),
+			if($(this).attr('data-src')){
+				let imgPath = $(this).attr('data-src'),
 				imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
 		
-			//给每个匹配的<img>元素打包, 即添加父元素<a>
-			$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' + postTitle + ' 》' + imgTitle + '"href="' + imgPath + '"> </a>');
+				//给每个匹配的<img>元素打包, 即添加父元素<a>
+				$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' +			 postTitle + 			 ' 》' + 			 imgTitle + 			 '"href="' + 			 imgPath + 			 '"> </a>');
+			}
+			
 		});
 		
 		videoID.each(function() {
@@ -949,7 +944,7 @@ github
 					"share",
 					"slideShow",
 					"fullScreen",
-					//"download",
+					"download",
 					"thumbs",
 					"close"
 				],
@@ -1039,8 +1034,18 @@ github
 
 				
 		</p>
-	</div>		
+	</div>
 </footer>
+
+	<script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+	<script>
+	  if (window.mermaid) {
+		mermaid.initialize({theme: 'neutral'});
+	  }
+	    //'forest',//default, forest, dark or neutral
+	</script>
+  
+
 		
 	<!-- Local or hitokoto! -->
 

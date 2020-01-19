@@ -859,11 +859,14 @@ TA弃你于千里之外，你却还愿意为TA走遍千山万水，道理是相�
 		let postTitle = titleID.text() ? titleID.text() : "No post title!";
 		
 		imageID.each(function() {
-			let imgPath = $(this).attr('src'),
+			if($(this).attr('data-src')){
+				let imgPath = $(this).attr('data-src'),
 				imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
 		
-			//给每个匹配的<img>元素打包, 即添加父元素<a>
-			$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' + postTitle + ' 》' + imgTitle + '"href="' + imgPath + '"> </a>');
+				//给每个匹配的<img>元素打包, 即添加父元素<a>
+				$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' +			 postTitle + 			 ' 》' + 			 imgTitle + 			 '"href="' + 			 imgPath + 			 '"> </a>');
+			}
+			
 		});
 		
 		videoID.each(function() {
@@ -883,7 +886,7 @@ TA弃你于千里之外，你却还愿意为TA走遍千山万水，道理是相�
 					"share",
 					"slideShow",
 					"fullScreen",
-					//"download",
+					"download",
 					"thumbs",
 					"close"
 				],
@@ -973,8 +976,18 @@ TA弃你于千里之外，你却还愿意为TA走遍千山万水，道理是相�
 
 				
 		</p>
-	</div>		
+	</div>
 </footer>
+
+	<script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+	<script>
+	  if (window.mermaid) {
+		mermaid.initialize({theme: 'neutral'});
+	  }
+	    //'forest',//default, forest, dark or neutral
+	</script>
+  
+
 		
 	<!-- Local or hitokoto! -->
 

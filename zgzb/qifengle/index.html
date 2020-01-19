@@ -384,6 +384,31 @@
 			
 					<li>
 						<div class="relate-post-text">
+							<a class="relate-post-title" href="/movie/TheStoryOfTheStone/" title="<影视> 红楼梦【原创】">
+								<影视> 红楼梦【原创】			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								一月 20日, 2020				
+							</p>
+							<p class="relate-post-content">
+								《红楼梦》又名《石头记》，描绘了一批举止见识出于须眉之上的闺阁佳人的人生百态，展现了真正的人性美和悲剧美[1]。
+下面借助87版电视剧，给大家梳理下其中的人物关系：
+
+贾不假，白玉为堂金作马；阿房宫，三百里，住不下金陵一个史；东海缺少...
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/movie/TheStoryOfTheStone/" title="<影视> 红楼梦【原创】">				
+								
+								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/19/1PC6w6.jpg" alt="&lt;影视&gt; 红楼梦【原创】"/>
+							</a>
+						</div>
+					</li>												
+			
+					<li>
+						<div class="relate-post-text">
 							<a class="relate-post-title" href="/tools/tools-utools/" title="<效率> utools【原创】">
 								<效率> utools【原创】			
 							</a>
@@ -574,21 +599,22 @@ utools是一个...
 
 时间
 更新内容
+文件
 
 
 
 
-2020/1/18
-导航页图片添加外边框
+2020/1/19
+添加mermaid支持
 
 
-2020/1/14
-原创内容增加标识
+
+2020/1/19
+文章内图片根据data-scr配置打开网页还是浏览图片
+Annie\layout\ …\post\gallery.ejs
 
 
-2020/1/14
-打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件
-...
+2...
 							</p>
 						</div>
 
@@ -596,30 +622,6 @@ utools是一个...
 							<a href="/hello-world/" title="网站更新说明">				
 								
 								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/10/lhvqDs.md.jpg" alt="网站更新说明"/>
-							</a>
-						</div>
-					</li>												
-			
-					<li>
-						<div class="relate-post-text">
-							<a class="relate-post-title" href="/happy/happy-day1/" title="<每日一冷> 兔美酱的名推理">
-								<每日一冷> 兔美酱的名推理			
-							</a>
-							<p class="relate-post-date">
-								<i class="fa fa-calendar"></i>
-								一月 8日, 2020				
-							</p>
-							<p class="relate-post-content">
-								  
-
-  
-							</p>
-						</div>
-
-						<div class="relate-post-cover">
-							<a href="/happy/happy-day1/" title="<每日一冷> 兔美酱的名推理">				
-								
-								<img style="object-fit: cover;" style="width:100%;height:100%;" class="lazy" src="/img/lazy.gif" data-src="https://s2.ax1x.com/2020/01/08/lRpbIf.md.jpg" alt="&lt;每日一冷&gt; 兔美酱的名推理"/>
 							</a>
 						</div>
 					</li>												
@@ -843,11 +845,14 @@ utools是一个...
 		let postTitle = titleID.text() ? titleID.text() : "No post title!";
 		
 		imageID.each(function() {
-			let imgPath = $(this).attr('src'),
+			if($(this).attr('data-src')){
+				let imgPath = $(this).attr('data-src'),
 				imgTitle = $(this).attr('alt') ? $(this).attr('alt') : "No image description!";
 		
-			//给每个匹配的<img>元素打包, 即添加父元素<a>
-			$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' + postTitle + ' 》' + imgTitle + '"href="' + imgPath + '"> </a>');
+				//给每个匹配的<img>元素打包, 即添加父元素<a>
+				$(this).wrap('<a data-fancybox="gallery" data-caption="《 ' +			 postTitle + 			 ' 》' + 			 imgTitle + 			 '"href="' + 			 imgPath + 			 '"> </a>');
+			}
+			
 		});
 		
 		videoID.each(function() {
@@ -867,7 +872,7 @@ utools是一个...
 					"share",
 					"slideShow",
 					"fullScreen",
-					//"download",
+					"download",
 					"thumbs",
 					"close"
 				],
@@ -957,8 +962,18 @@ utools是一个...
 
 				
 		</p>
-	</div>		
+	</div>
 </footer>
+
+	<script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+	<script>
+	  if (window.mermaid) {
+		mermaid.initialize({theme: 'neutral'});
+	  }
+	    //'forest',//default, forest, dark or neutral
+	</script>
+  
+
 		
 	<!-- Local or hitokoto! -->
 
