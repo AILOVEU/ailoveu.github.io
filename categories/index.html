@@ -39,7 +39,7 @@
       randomYouMax: 110,
       randomYouSrc: 'https://picsum.photos/1920/1080',
 	  randomOtherSrc: 'https://picsum.photos/1920/1080',
-	  preloaderEnable: false
+	  preloaderEnable: true
     }
 	
     const CONFIG_LEACLOUD_COUNT = {
@@ -55,12 +55,23 @@
 		<!-- Preloader -->
 
 
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
 
 <!-- header -->
-<header class="fixbackground bg-pan-br">
+<!-- <header class="fixbackground bg-pan-br">
 
 	<div class="mask">
-		<!-- motto -->
 		<div class="h-body">	
 			
 				<div class="motto text-shadow-pop-left">
@@ -71,14 +82,13 @@
 			
 		</div>
 		
-		<!-- others: such as time... -->			
 		<div class="h-footer">
 			<a href="javascript:;" id="read-more" class="scroll-down">
 				<span class="icon-anchor1 animation-scroll-down"></span>
 			</a>
 		</div>
 	</div>
-</header>
+</header> -->
 
 <div id="navigation-hide">
 	<!-- Progress bar -->
@@ -213,7 +223,7 @@ z-index: -1;"></canvas>
 		
 
 			<div class="category">
-				<ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a><span class="category-list-count">10</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%BD%93%E8%82%B2/">体育</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%88%AE%E5%88%AE%E4%B9%90/">刮刮乐</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/">妹子图</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BD%B1%E8%A7%86/">影视</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AE%B5%E5%AD%90/">段子</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/">每日一禅</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%89%87%E5%88%BB/">片刻</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%90%86%E8%B4%A2/">理财</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%B5%84%E6%BA%90/">资源</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/">镇馆之宝</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9F%B3%E4%B9%90/">音乐</a><span class="category-list-count">1</span></li></ul>
+				<ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E4%BD%93%E8%82%B2/">体育</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%88%AE%E5%88%AE%E4%B9%90/">刮刮乐</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/">妹子图</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BD%B1%E8%A7%86/">影视</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AE%B5%E5%AD%90/">段子</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/">每日一禅</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%89%87%E5%88%BB/">片刻</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%90%86%E8%B4%A2/">理财</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/">电影截图</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%81%8C%E5%9C%BA/">职场</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%B5%84%E6%BA%90/">资源</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/">镇馆之宝</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9F%B3%E4%B9%90/">音乐</a><span class="category-list-count">1</span></li></ul>
 			</div>
 
 		

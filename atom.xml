@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ailoveu.github.io/"/>
-  <updated>2020-02-09T14:58:55.537Z</updated>
+  <updated>2020-02-27T07:12:47.919Z</updated>
   <id>http://ailoveu.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站更新说明</title>
+    <link href="http://ailoveu.github.io/hello-world/"/>
+    <id>http://ailoveu.github.io/hello-world/</id>
+    <published>2020-02-27T15:00:00.000Z</published>
+    <updated>2020-02-27T07:12:47.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>网站更新记录：</p><table><thead><tr><th style="text-align:left">时间</th><th style="text-align:left">更新内容</th><th style="text-align:left">文件</th></tr></thead><tbody><tr><td style="text-align:left">2020/2/27</td><td style="text-align:left">只在首页展示fixbackground</td><td style="text-align:left">header.ejs,添加if(is_home)控制</td></tr><tr><td style="text-align:left">2020/2/27</td><td style="text-align:left">删除大部分不重要的文章</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/2/9</td><td style="text-align:left">修复audio不显示问题</td><td style="text-align:left">添加audio {width:300px;height: 54px;}</td></tr><tr><td style="text-align:left">2020/2/9</td><td style="text-align:left">首次引入网易云音乐外联</td><td style="text-align:left">直接使用外联地址</td></tr><tr><td style="text-align:left">2020/2/4</td><td style="text-align:left">增加星空连线背景</td><td style="text-align:left">参考https://www.lvfan.xyz/等</td></tr><tr><td style="text-align:left">2020/2/4</td><td style="text-align:left">更换logo和链接指向</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/2/3</td><td style="text-align:left">增加刮刮乐图片能力</td><td style="text-align:left">参考http://www.fly63.com/article/detial/5788</td></tr><tr><td style="text-align:left">2020/1/30</td><td style="text-align:left">更改blockquote样式为#74B1DA</td><td style="text-align:left">Annie\source\ … \custom.styl</td></tr><tr><td style="text-align:left">2020/1/30</td><td style="text-align:left">添加myblockquote引用样式</td><td style="text-align:left">Annie\source\ … \base.styl</td></tr><tr><td style="text-align:left">2020/1/19</td><td style="text-align:left">添加mermaid支持</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/19</td><td style="text-align:left">文章内图片根据data-scr配置打开网页还是浏览图片</td><td style="text-align:left">Annie\layout\ …\post\gallery.ejs</td></tr><tr><td style="text-align:left">2020/1/18</td><td style="text-align:left">导航页图片添加外边框</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">原创内容增加标识</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/14</td><td style="text-align:left">打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">随机主页图片</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">调整主页图片的显示比例</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/10</td><td style="text-align:left">配置主题喜欢、评论、访问统计、本地搜索功能</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/9</td><td style="text-align:left">更换新主题</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2020/1/8</td><td style="text-align:left">解决post页面不居中的问题</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2019/12/18</td><td style="text-align:left">解决首页文章在手机上显示异常的问题</td><td style="text-align:left"></td></tr><tr><td style="text-align:left">2019/12/17</td><td style="text-align:left">项目上线</td><td style="text-align:left"></td></tr></tbody></table><p>后期准备上线功能：</p><ul><li>改进刮刮乐手机上体验</li><li><s>只在首页展示fixbackground</s></li><li>可能会更换图床(现在的太慢了)</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      无
+    
+    </summary>
+    
+    
+    
+      <category term="Other" scheme="http://ailoveu.github.io/tags/Other/"/>
+    
+  </entry>
   
   <entry>
     <title>&lt;影视&gt; 水浒一百单八将</title>
@@ -200,119 +221,11 @@
   </entry>
   
   <entry>
-    <title>&lt;hexo&gt;  3.1 写一篇hello world【原创】</title>
-    <link href="http://ailoveu.github.io/IT/hexo/3.1/"/>
-    <id>http://ailoveu.github.io/IT/hexo/3.1/</id>
-    <published>2020-01-26T12:42:00.000Z</published>
-    <updated>2020-01-26T05:08:30.371Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="回到导航页"><a href="../hexo-nav/">回到导航页</a></h4><p>找到默认的hello world.md文件（/hexo/source/hello-world.md）,删除文件里的内容。</p><h5 id="1-添加文件描述">1. 添加文件描述</h5><p>首先在md文件的开头加入文章描述，格式如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &lt;hexo&gt;  3.1 写一篇hello world【原创】</span><br><span class="line">categories:</span><br><span class="line">- IT</span><br><span class="line">tags: </span><br><span class="line">- hexo</span><br><span class="line">- github</span><br><span class="line">- 原创</span><br><span class="line">excerpt: 写一篇hello world</span><br><span class="line">up: false</span><br><span class="line">date: 2020&#x2F;01&#x2F;26 20:42:00</span><br><span class="line">thumbnail: https:&#x2F;&#x2F;s2.ax1x.com&#x2F;2020&#x2F;01&#x2F;20&#x2F;1i5lrj.jpg</span><br><span class="line">cover: https:&#x2F;&#x2F;s2.ax1x.com&#x2F;2020&#x2F;01&#x2F;20&#x2F;1i5lrj.jpg</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>内容被六个小横线包围，说明如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title网页标题</span><br><span class="line">categories网页分类（有且只能有一个）</span><br><span class="line">tags 网页标签（可以有多个）</span><br><span class="line">excerpt 网页描述，会在首页显示</span><br><span class="line">up 该文章是否顶置，有的主题有，有的没有</span><br><span class="line">date 网页生成时间，格式为yyyy&#x2F;mm&#x2F;dd hh:mm:ss</span><br><span class="line">thumbnail 文章封面图片,兼容主题切换</span><br><span class="line">cover 文章封面图片,兼容主题切换</span><br></pre></td></tr></table></figure><p>之后就可以写文章了,当前疫情情况危急，我打算写一篇这个主题相关的文章。</p><hr><p>hello-world.md文章内容如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">### 疫情局势</span><br><span class="line"></span><br><span class="line">- 传染源: 野生动物，可能为中华菊头蝠</span><br><span class="line">- 病毒: 新型冠状病毒 2019-nCoV</span><br><span class="line">- 传播途径: 未完全掌握，存在人传人、医务人员感染、一定范围社区传播</span><br><span class="line">- 病毒是否变异：存在可能</span><br><span class="line">- 疫情是否扩散：是</span><br><span class="line"></span><br><span class="line">更多内容可以通过该网站查看，[丁香医生](https:&#x2F;&#x2F;3g.dxy.cn&#x2F;newh5&#x2F;view&#x2F;pneumonia)</span><br></pre></td></tr></table></figure><p>效果如下：</p><h3 id="疫情局势">疫情局势</h3><ul><li>传染源: 野生动物，可能为中华菊头蝠</li><li>病毒: 新型冠状病毒 2019-nCoV</li><li>传播途径: 未完全掌握，存在人传人、医务人员感染、一定范围社区传播</li><li>病毒是否变异：存在可能</li><li>疫情是否扩散：是</li></ul><p>更多内容可以通过该网站查看，<a href="https://3g.dxy.cn/newh5/view/pneumonia" target="_blank" rel="noopener">丁香医生</a></p><hr><p>以上只是举个栗子，更多md语法可以参照下一篇的内容，或上网查询更多。</p>]]></content>
-    
-    <summary type="html">
-    
-      写一篇hello world
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="http://ailoveu.github.io/categories/IT/"/>
-    
-    
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
-    
-      <category term="hexo" scheme="http://ailoveu.github.io/tags/hexo/"/>
-    
-      <category term="github" scheme="http://ailoveu.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&lt;hexo&gt;  2.3 下载你喜欢的主题【进阶】【原创】</title>
-    <link href="http://ailoveu.github.io/IT/hexo/2.3/"/>
-    <id>http://ailoveu.github.io/IT/hexo/2.3/</id>
-    <published>2020-01-26T12:42:00.000Z</published>
-    <updated>2020-01-26T05:10:12.854Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="回到导航页"><a href="../hexo-nav/">回到导航页</a></h4><p>打开hexo theme下载页面<a href="https://hexo.io/themes/" target="_blank" rel="noopener">HEXO THEME</a></p><p>以Next主题为例，从github下载该主题<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a></p><p>可以通过下面的命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd hexo</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br></pre></td></tr></table></figure><p>也可以直接下载hexo-theme-next的zip压缩包，解压放到hexo/theme/next目录里<br>完成后如下图：</p><p><img src="https://s2.ax1x.com/2020/01/26/1mQgyD.jpg" alt="1mQgyD.jpg"></p><p>更改项目下的_config.yml（/hexo/_config.yml），将theme: landscape改为theme: next（冒号后一个空格）。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br><span class="line">#next为&#x2F;hexo&#x2F;theme&#x2F;next中next的文件名</span><br></pre></td></tr></table></figure><p>重新执行hexo g &amp;&amp; hexo s<br>浏览器打开http://127.0.0.1:4000，即可以看到next主题效果</p><p><img src="https://s2.ax1x.com/2020/01/26/1mQcQO.jpg" alt="1mQcQO.jpg"></p>]]></content>
-    
-    <summary type="html">
-    
-      下载你喜欢的主题
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="http://ailoveu.github.io/categories/IT/"/>
-    
-    
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
-    
-      <category term="hexo" scheme="http://ailoveu.github.io/tags/hexo/"/>
-    
-      <category term="github" scheme="http://ailoveu.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&lt;hexo&gt;  2.2 hexo的生成（g）和启动（s）【进阶】【原创】</title>
-    <link href="http://ailoveu.github.io/IT/hexo/2.2/"/>
-    <id>http://ailoveu.github.io/IT/hexo/2.2/</id>
-    <published>2020-01-26T11:42:00.000Z</published>
-    <updated>2020-01-26T04:38:21.699Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="回到导航页"><a href="../hexo-nav/">回到导航页</a></h4><p>hexo使用说明：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">Usage: hexo &lt;command&gt;</span><br><span class="line"></span><br><span class="line">Commands:</span><br><span class="line">  clean     Remove generated files and cache.</span><br><span class="line">  config    Get or set configurations.</span><br><span class="line">  deploy    Deploy your website.</span><br><span class="line">  generate  Generate static files.</span><br><span class="line">  help      Get help on a command.</span><br><span class="line">  init      Create a new Hexo folder.</span><br><span class="line">  list      List the information of the site</span><br><span class="line">  migrate   Migrate your site from other system to Hexo.</span><br><span class="line">  new       Create a new post.</span><br><span class="line">  publish   Moves a draft post from _drafts to _posts folder.</span><br><span class="line">  render    Render files with renderer plugins.</span><br><span class="line">  server    Start the server.</span><br><span class="line">  version   Display version information.</span><br><span class="line"></span><br><span class="line">Global Options:</span><br><span class="line">  --config  Specify config file instead of using _config.yml</span><br><span class="line">  --cwd     Specify the CWD</span><br><span class="line">  --debug   Display all verbose messages in the terminal</span><br><span class="line">  --draft   Display draft posts</span><br><span class="line">  --safe    Disable all plugins and scripts</span><br><span class="line">  --silent  Hide output on console</span><br></pre></td></tr></table></figure><p>hexo init:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init [folder]</span><br><span class="line">新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。</span><br></pre></td></tr></table></figure><p>★hexo g:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>★hexo s:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$hexo server</span><br><span class="line">选项   描述</span><br><span class="line">-p, --port重设端口</span><br><span class="line">-s, --static只使用静态文件</span><br><span class="line">-l, --log启动日记记录，使用覆盖记录格式</span><br></pre></td></tr></table></figure><p>★hexo clean:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$hexo clean</span><br><span class="line">清除缓存文件 (db.json) 和已生成的静态文件 (public)。</span><br><span class="line"></span><br><span class="line">在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</span><br></pre></td></tr></table></figure><p>hexo version:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo version</span><br><span class="line">显示 Hexo 版本。</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      hexo的生成（g）和启动（s）
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="http://ailoveu.github.io/categories/IT/"/>
-    
-    
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
-    
-      <category term="hexo" scheme="http://ailoveu.github.io/tags/hexo/"/>
-    
-      <category term="github" scheme="http://ailoveu.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&lt;hexo&gt;  2.1 windows安装node.js、npm安装hexo相关组件【原创】</title>
-    <link href="http://ailoveu.github.io/IT/hexo/2.1/"/>
-    <id>http://ailoveu.github.io/IT/hexo/2.1/</id>
-    <published>2020-01-25T11:42:00.000Z</published>
-    <updated>2020-01-26T04:38:08.020Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="回到导航页"><a href="../hexo-nav/">回到导航页</a></h4><ol><li>win安装node.js</li></ol><p>打开下载页面<a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">Node.js</a>，下载第一个即可（第二个也可），下一步下一步安装，安装完成后重启电脑（没经验就重启，准没问题）</p><p><img src="https://s2.ax1x.com/2020/01/26/1mQsW6.jpg" alt="1mQsW6.jpg"></p><p>在cmd命令窗口，输入node --version，如果有输出即说明安装成功</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$node --version</span><br><span class="line">v12.14.0</span><br></pre></td></tr></table></figure><ol start="2"><li>npm安装hexo相关组件</li></ol><p>首先约定一下，我们创建一个hexo文件夹，然后cd hexo，之后所有的操作都是在该文件夹下操作的。</p><p>安装hexo组件，-g即全局安装hexo，这样会省许多麻烦</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><p>补充说明：<a href="https://www.cnblogs.com/limitcode/p/7906447.html" target="_blank" rel="noopener">npm -g-save含义</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">npm install moduleName # 安装模块到项目目录下</span><br><span class="line"> </span><br><span class="line">npm install -g moduleName # -g 的意思是将模块安装到全局，具体安装到磁盘哪个位置，要看 npm config prefix 的位置。</span><br><span class="line"> </span><br><span class="line">npm install -save moduleName # -save 的意思是将模块安装到项目目录下，并在package文件的dependencies节点写入依赖。</span><br><span class="line"> </span><br><span class="line">npm install -save-dev moduleName # -save-dev 的意思是将模块安装到项目目录下，并在package文件的devDependencies节点写入依赖。</span><br></pre></td></tr></table></figure><p>补充说明：对应的卸载方法</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$npm uninstall hexo-cli -g</span><br></pre></td></tr></table></figure><p>输入hexo显示如下内容说明安装成功：</p><p><img src="https://s2.ax1x.com/2020/01/26/1mQrJx.jpg" alt="1mQrJx.jpg"></p><p>hexo初始化,程序会从hexo的仓库克隆相关git文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$hexo init</span><br></pre></td></tr></table></figure><p>最终的目录结构如下图：</p><p><img src="https://s2.ax1x.com/2020/01/26/1mQDF1.jpg" alt="1mQDF1.jpg"></p><p>通过如下命令启动hexo，关于命令的详细说明可参照下一章</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$hexo g #编译项目，在并&#x2F;hexo目录下生成public文件</span><br><span class="line">$hexo s #启动服务器</span><br></pre></td></tr></table></figure><p>浏览器打开http://127.0.0.1:4000，即可以看到最终效果</p><p><img src="https://s2.ax1x.com/2020/01/26/1mQ0oR.jpg" alt="1mQ0oR.jpg"></p>]]></content>
-    
-    <summary type="html">
-    
-      windows安装node.js、npm安装hexo相关组件
-    
-    </summary>
-    
-    
-      <category term="IT" scheme="http://ailoveu.github.io/categories/IT/"/>
-    
-    
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
-    
-      <category term="hexo" scheme="http://ailoveu.github.io/tags/hexo/"/>
-    
-      <category term="github" scheme="http://ailoveu.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
     <title>&lt;每日一禅&gt;  我消失的那段时间</title>
     <link href="http://ailoveu.github.io/daily-meditation/mryc-day8/"/>
     <id>http://ailoveu.github.io/daily-meditation/mryc-day8/</id>
     <published>2020-01-23T10:22:00.000Z</published>
-    <updated>2020-01-28T05:35:45.384Z</updated>
+    <updated>2020-02-27T06:59:15.587Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>每个人在最悲伤的时候，会突然消失一阵子。到底发生了什么，让我告诉你。</p></blockquote><blockquote><p>在那段时间，降临一场暴雨，天上所有的云都自杀身亡，从此以后晴空万里。</p></blockquote><blockquote><p>耐心点，你会做到的。</p></blockquote><p><a href="https://imgchr.com/i/1ZmIn1" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/24/1ZmIn1.md.jpg" alt="1ZmIn1.md.jpg"></a></p>]]></content>
     
@@ -391,13 +304,13 @@
     <link href="http://ailoveu.github.io/tools/tools-utools/"/>
     <id>http://ailoveu.github.io/tools/tools-utools/</id>
     <published>2020-01-17T16:00:00.000Z</published>
-    <updated>2020-01-20T12:25:28.936Z</updated>
+    <updated>2020-02-27T06:56:57.914Z</updated>
     
     <content type="html"><![CDATA[<h3 id="它是什么？">它是什么？</h3><p>uTools是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。<br>当你熟悉它后，能够为你节约大量时间，让你可以更加专注地改变世界。(来自官方的介绍)</p><h3 id="它能做什么？">它能做什么？</h3><p>utools是一个平台，它上面有翻译、文件查找、aira2下载工具等等工具，由于是一个开放平台，所以只要开发者足够多的，它可以做任何“小”事。我对它的定位更像微信的小程序。</p><h3 id="它怎么用？">它怎么用？</h3><ol><li><p>首先下载<br><a href="https://www.u.tools" target="_blank" rel="noopener">utools</a></p></li><li><p>安装后打开，不用它就会隐藏</p></li><li><p>使用组合键ALT+SPACE，在任意窗口调出程序<br><a href="https://imgchr.com/i/1pbMPf" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbMPf.md.png" alt="1pbMPf.md.png"></a></p></li><li><p>点击黑色按钮，进入插件市场（免费）</p></li></ol><p><a href="https://imgchr.com/i/1pb1xg" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pb1xg.md.png" alt="1pb1xg.md.png"></a></p><ol start="5"><li>安装人民币大小写转换工具</li></ol><p><a href="https://imgchr.com/i/1pbQG8" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbQG8.md.png" alt="1pbQG8.md.png"></a></p><p><a href="https://imgchr.com/i/1pblRS" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pblRS.md.png" alt="1pblRS.md.png"></a></p><ol start="6"><li><p>重启utools</p></li><li><p>按住ALT+SPACE，输入任意金额，如3154</p></li></ol><p><a href="https://imgchr.com/i/1pbuIP" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbuIP.md.png" alt="1pbuIP.md.png"></a></p><p><a href="https://imgchr.com/i/1pbnat" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/18/1pbnat.md.png" alt="1pbnat.md.png"></a></p><p>值得注意的是，utools是根据插件的功能关键字来显示的，安装完一个插件后，如文件对比，可以搜索“文件比较”、“比较”，打开此插件。</p><p><strong>像文件搜索、翻译可以直接搜索，不需要打开插件后二次输入！</strong></p>]]></content>
     
     <summary type="html">
     
-      它值得独占你的ALT+SPACE
+      虽然我已经习惯了鼠标拖到右下角，但现在我更喜欢alt+space
     
     </summary>
     
@@ -441,7 +354,7 @@
     <link href="http://ailoveu.github.io/movie-capture/dyjt-scz/"/>
     <id>http://ailoveu.github.io/movie-capture/dyjt-scz/</id>
     <published>2020-01-15T15:32:00.000Z</published>
-    <updated>2020-01-20T12:23:37.209Z</updated>
+    <updated>2020-02-27T06:58:20.173Z</updated>
     
     <content type="html"><![CDATA[  <div align="center"><p><a href="https://imgchr.com/i/lXJGU1" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/15/lXJGU1.md.jpg" alt="lXJGU1.md.jpg"></a></p><p><a href="https://imgchr.com/i/lXJJ4x" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/15/lXJJ4x.md.jpg" alt="lXJJ4x.md.jpg"></a></p>  </div>]]></content>
     
@@ -456,6 +369,8 @@
     
     
       <category term="四重奏" scheme="http://ailoveu.github.io/tags/%E5%9B%9B%E9%87%8D%E5%A5%8F/"/>
+    
+      <category term="日剧" scheme="http://ailoveu.github.io/tags/%E6%97%A5%E5%89%A7/"/>
     
   </entry>
   
@@ -491,35 +406,6 @@
   </entry>
   
   <entry>
-    <title>&lt;效率&gt; postman团队合作【原创】</title>
-    <link href="http://ailoveu.github.io/tools/tools-postman/"/>
-    <id>http://ailoveu.github.io/tools/tools-postman/</id>
-    <published>2020-01-13T16:00:00.000Z</published>
-    <updated>2020-01-14T14:50:02.259Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="前言">前言</h4><p>相信很过做开发的同事都用过postman这款接口测试工具，但是博主在使用的过程中，发现同事在他的电脑上测好了之后，想把使用方式发给我中间要经历好几个步骤。</p><p>怎么能快速的调通呢，这里介绍下postman的团队合作模式。</p><h4 id="首先注册一个postman账号">首先注册一个postman账号</h4><p>数据上云真的很重要，不论是硬盘数据备份、网页收藏，博主建议能保存到云上的一定要注册个账号。</p>]]></content>
-    
-    <summary type="html">
-    
-      如何快速的把接口数据发给其他开发测试
-    
-    </summary>
-    
-    
-      <category term="工具" scheme="http://ailoveu.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="更新中" scheme="http://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
-    
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
-    
-      <category term="效率" scheme="http://ailoveu.github.io/tags/%E6%95%88%E7%8E%87/"/>
-    
-      <category term="postman" scheme="http://ailoveu.github.io/tags/postman/"/>
-    
-  </entry>
-  
-  <entry>
     <title>&lt;镇馆之宝&gt; 黄磊早期作品</title>
     <link href="http://ailoveu.github.io/zgzb/xinbaodao/"/>
     <id>http://ailoveu.github.io/zgzb/xinbaodao/</id>
@@ -541,6 +427,118 @@
       <category term="再来亿遍" scheme="http://ailoveu.github.io/tags/%E5%86%8D%E6%9D%A5%E4%BA%BF%E9%81%8D/"/>
     
       <category term="新宝岛" scheme="http://ailoveu.github.io/tags/%E6%96%B0%E5%AE%9D%E5%B2%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;体育&gt; 棒球基础知识普及【原创】</title>
+    <link href="http://ailoveu.github.io/sport/baseball/"/>
+    <id>http://ailoveu.github.io/sport/baseball/</id>
+    <published>2020-01-12T13:46:00.000Z</published>
+    <updated>2020-02-27T06:57:19.522Z</updated>
+    
+    <content type="html"><![CDATA[<p><myblockquote>只有了解电视剧的背景知识，才是好的球迷。————鲁迅</myblockquote></p><p>最近《棒球大联盟》真的很火，经不住独立鱼的推荐，我也开始追了起来，虽然大家更多的是看剧，奈何讲的是我们大部分人都接触不到的棒球运动，我觉得有必要给大家科普下一些入门的棒球知识，应对看剧应该是没问题的。如果嫌长，可以只看重点标注部分。</p><h3 id="怎么算赢球">怎么算赢球</h3><hr><p>不管是玩游戏还是看体育比赛，亦或者是参加什么活动，搞懂怎么算赢，我觉得就可以看了。<br>棒球比赛是两个队伍之间进行比赛，假设为红蓝两队，红队先进攻（红队击球）。</p><blockquote><p>棒球比赛常规时间内有9局，每局两队各作为一次防守方和进攻方，看最后谁的得分高。</p></blockquote><ul><li>常听到的名词比如“4局下半”，就是指比赛进行到了第4局，由红队投手投球，蓝队打击手挥棒，此时只有可能蓝队得分。即蓝队进攻方，红队防守方。</li><li>以2017年小熊队和印地安人世界赛第7场为例，小熊队在10局下办才拿下比赛。如果双发在9局下半，仍然没有分出胜负，那么将会进入到残酷的加时赛，一旦双方下一局得分不同，比赛结束，总分高的胜利。</li><li>打者从本垒绕一垒二垒三垒跑回本垒记作一分</li></ul><h3 id="球队组成">球队组成</h3><hr><h3 id="棒球名词">棒球名词</h3><hr><blockquote><p><strong>本垒打 Home Run</strong>:指打击者挥棒将球打出场外</p></blockquote><ul><li>棒球场地高度没有严格规定，所以有些场地的护栏比较低，更容易发生本垒打。</li><li>打击手可以所有垒跑一圈，最后回到本垒，所以叫本垒打，Home Run也是很形象了。</li><li>只要垒上有人，所有垒上的人都回到本垒，所有一次本垒打最多是得到4分，最低的1分。</li></ul><blockquote><p><strong>安打</strong>: 指打击者打出去的球没有被防守方截杀，导致跑者上垒</p></blockquote><ul><li>可以是一垒安打、二垒安打、三垒安打，分别指打击者一次性跑到一垒、二垒、三垒。</li></ul><h3 id="常识">常识</h3><hr>]]></content>
+    
+    <summary type="html">
+    
+      棒球大联盟，棒球知识普及
+    
+    </summary>
+    
+    
+      <category term="体育" scheme="http://ailoveu.github.io/categories/%E4%BD%93%E8%82%B2/"/>
+    
+    
+      <category term="更新中" scheme="http://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+    
+      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="体育" scheme="http://ailoveu.github.io/tags/%E4%BD%93%E8%82%B2/"/>
+    
+      <category term="棒球" scheme="http://ailoveu.github.io/tags/%E6%A3%92%E7%90%83/"/>
+    
+      <category term="长知识" scheme="http://ailoveu.github.io/tags/%E9%95%BF%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="棒球大联盟" scheme="http://ailoveu.github.io/tags/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;刮刮乐&gt; 柯南这首片尾曲的歌词</title>
+    <link href="http://ailoveu.github.io/ggl/ggl-day1/"/>
+    <id>http://ailoveu.github.io/ggl/ggl-day1/</id>
+    <published>2020-01-12T12:16:00.000Z</published>
+    <updated>2020-02-03T04:28:40.166Z</updated>
+    
+    <content type="html"><![CDATA[  <div align="center"><p><img src="https://s2.ax1x.com/2020/01/12/lTaRGF.jpg" alt="lTaRGF.jpg"></p> <ggl>  以前带新一来的时候都没发现这是家自助餐厅，因为新一会不停的把小兰爱吃的菜端上来。– 笑点研究所</ggl>  </div>]]></content>
+    
+    <summary type="html">
+    
+      无
+    
+    </summary>
+    
+    
+      <category term="刮刮乐" scheme="http://ailoveu.github.io/categories/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
+    
+    
+      <category term="刮刮乐" scheme="http://ailoveu.github.io/tags/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
+    
+      <category term="柯南" scheme="http://ailoveu.github.io/tags/%E6%9F%AF%E5%8D%97/"/>
+    
+      <category term="每日一冷" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;镇馆之宝&gt; 起风了-港影演员群像</title>
+    <link href="http://ailoveu.github.io/zgzb/qifengle/"/>
+    <id>http://ailoveu.github.io/zgzb/qifengle/</id>
+    <published>2020-01-09T05:32:00.000Z</published>
+    <updated>2020-01-10T12:36:59.789Z</updated>
+    
+    <content type="html"><![CDATA[  <div align="center" style="position: relative;            width: 100%;            height: 0;            padding-bottom: 75%;"><iframe style="position: absolute;        width: 100%;        height: 100%;        left: 0;        top: 0;" src="//player.bilibili.com/player.html?aid=22553715&cid=37396592&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  </div>]]></content>
+    
+    <summary type="html">
+    
+      无
+    
+    </summary>
+    
+    
+      <category term="镇馆之宝" scheme="http://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
+    
+    
+      <category term="B站" scheme="http://ailoveu.github.io/tags/B%E7%AB%99/"/>
+    
+      <category term="影视" scheme="http://ailoveu.github.io/tags/%E5%BD%B1%E8%A7%86/"/>
+    
+      <category term="起风了" scheme="http://ailoveu.github.io/tags/%E8%B5%B7%E9%A3%8E%E4%BA%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;每日一冷&gt; 兔美酱的名推理</title>
+    <link href="http://ailoveu.github.io/happy/happy-day1/"/>
+    <id>http://ailoveu.github.io/happy/happy-day1/</id>
+    <published>2020-01-08T13:32:00.000Z</published>
+    <updated>2020-01-10T12:36:59.757Z</updated>
+    
+    <content type="html"><![CDATA[  <div align="center"><p><img src="https://s2.ax1x.com/2020/01/08/lRCXuj.png" alt="lRCXuj.png"></p>  </div>]]></content>
+    
+    <summary type="html">
+    
+      无
+    
+    </summary>
+    
+    
+      <category term="段子" scheme="http://ailoveu.github.io/categories/%E6%AE%B5%E5%AD%90/"/>
+    
+    
+      <category term="每日一冷" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/"/>
+    
+      <category term="日和" scheme="http://ailoveu.github.io/tags/%E6%97%A5%E5%92%8C/"/>
     
   </entry>
   

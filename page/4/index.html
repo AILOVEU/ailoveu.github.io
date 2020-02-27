@@ -39,7 +39,7 @@
       randomYouMax: 110,
       randomYouSrc: 'https://picsum.photos/1920/1080',
 	  randomOtherSrc: 'https://picsum.photos/1920/1080',
-	  preloaderEnable: false
+	  preloaderEnable: true
     }
 	
     const CONFIG_LEACLOUD_COUNT = {
@@ -55,12 +55,44 @@
 		<!-- Preloader -->
 
 
+	<div id="preloader">
+		<div class="pre-container">
+			
+				<div class="spinner">
+					<div class="double-bounce1"></div>
+					<div class="double-bounce2"></div>
+				</div>
+						
+		</div>
+	</div>
+
+
+	<header class="fixbackground bg-pan-br">
+
+		<div class="mask">
+			<div class="h-body">	
+				
+					<div class="motto text-shadow-pop-left">
+						<p class="content" id="motto-content">获取中...</p>
+						<p>-<p>
+						<p class="author" id="motto-author">Just a minute...</p>
+					</div>
+				
+			</div>
+			
+			<div class="h-footer">
+				<a href="javascript:;" id="read-more" class="scroll-down">
+					<span class="icon-anchor1 animation-scroll-down"></span>
+				</a>
+			</div>
+		</div>
+	</header>
+
 
 <!-- header -->
-<header class="fixbackground bg-pan-br">
+<!-- <header class="fixbackground bg-pan-br">
 
 	<div class="mask">
-		<!-- motto -->
 		<div class="h-body">	
 			
 				<div class="motto text-shadow-pop-left">
@@ -71,14 +103,13 @@
 			
 		</div>
 		
-		<!-- others: such as time... -->			
 		<div class="h-footer">
 			<a href="javascript:;" id="read-more" class="scroll-down">
 				<span class="icon-anchor1 animation-scroll-down"></span>
 			</a>
 		</div>
 	</div>
-</header>
+</header> -->
 
 <div id="navigation-hide">
 	<!-- Progress bar -->
@@ -203,68 +234,6 @@ z-index: -1;"></canvas>
 	<!--cart style-->
 	<div class="layout-cart">
 	<div id="layout-cart">
-		
-			<div class="post" id="post">
-				<a style="border:1px solid #e0e0e0" class="post-cover" href="/daily-meditation/mryc-day3/" title=" &lt;每日一禅&gt;  时光机 " target="_self">
-					
-					<img class="lazy" src="https://s2.ax1x.com/2020/02/10/15r98s.gif" data-src="https://s2.ax1x.com/2019/12/22/QzOxAJ.md.jpg" style="object-fit:cover">
-				</a>
-				<div class="post-text">
-					<p class="post-time">
-						十二月 22日, 2019
-					</p>	
-					<h3 class="post-title" id="post-title-index">
-						<a href="/daily-meditation/mryc-day3/" title="&lt;每日一禅&gt;  时光机">							
-							
-	<a href="/daily-meditation/mryc-day3/" itemprop="url">
-		&lt;每日一禅&gt;  时光机
-	</a>
-
-						</a>
-					</h3>
-					<p class="post-content">
-						
-							摘要：我愿意 付出所有来换一个时光机
-						  
-
-
-						<!-- 
-							
-教授：你怎么想的呢？
-
-
-22岁的我：恩…
-
-
-教授：想象一下，你毕业之后成为打零工的，不管怎么说活下来了，到了40岁左右回头看人生肯定后悔吧。那个时候...
-						 -->
-					</p>
-					<p class="post-meta">
-						
-
-	
-    <span class="leancloud_visitors" id="/daily-meditation/mryc-day3/_visitors" data-url="/daily-meditation/mryc-day3/" data-title="<每日一禅>  时光机">
-       	<i class="icon-eye"></i>
-       	热度
-        
-            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
-                   
-    </span>
-    
-
-
-
-	
-    <span class="leancloud_likes" id="/daily-meditation/mryc-day3/_likes" data-url="/daily-meditation/mryc-day3/" data-title="<每日一禅>  时光机" rel="unlike">
-        <i class="icon-heart"></i>
-        喜欢
-        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
-    </span>
-	
-
-					</p>
-				</div>
-			</div>
 		
 			<div class="post" id="post">
 				<a style="border:1px solid #e0e0e0" class="post-cover" href="/pianke/pk-day1/" title=" &lt;片刻&gt; 今夜能否再梦见你？ " target="_self">
@@ -574,125 +543,6 @@ z-index: -1;"></canvas>
 
 	
     <span class="leancloud_likes" id="/movie-capture/dyjt-qhd1988/_likes" data-url="/movie-capture/dyjt-qhd1988/" data-title="<电影截图> 请回答1988" rel="unlike">
-        <i class="icon-heart"></i>
-        喜欢
-        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
-    </span>
-	
-
-					</p>
-				</div>
-			</div>
-		
-			<div class="post" id="post">
-				<a style="border:1px solid #e0e0e0" class="post-cover" href="/IT/front-end/it-jquery-selector/" title=" &lt;Js&gt; Jquery选择器介绍【原创】 " target="_self">
-					
-					<img class="lazy" src="https://s2.ax1x.com/2020/02/10/15r98s.gif" data-src="https://s2.ax1x.com/2019/12/20/QOZIoT.jpg" style="object-fit:cover">
-				</a>
-				<div class="post-text">
-					<p class="post-time">
-						十二月 18日, 2019
-					</p>	
-					<h3 class="post-title" id="post-title-index">
-						<a href="/IT/front-end/it-jquery-selector/" title="&lt;Js&gt; Jquery选择器介绍【原创】">							
-							
-	<a href="/IT/front-end/it-jquery-selector/" itemprop="url">
-		&lt;Js&gt; Jquery选择器介绍【原创】
-	</a>
-
-						</a>
-					</h3>
-					<p class="post-content">
-						
-							摘要：jquery元素选择器
-						  
-
-
-						<!-- 
-							联合选择器(所有元素都生效):
-${&quot;#d1,.d2,div&quot;}.css()
-
-后代元素选择器：
-$(&quot;#d1 a&quot...
-						 -->
-					</p>
-					<p class="post-meta">
-						
-
-	
-    <span class="leancloud_visitors" id="/IT/front-end/it-jquery-selector/_visitors" data-url="/IT/front-end/it-jquery-selector/" data-title="<Js> Jquery选择器介绍【原创】">
-       	<i class="icon-eye"></i>
-       	热度
-        
-            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
-                   
-    </span>
-    
-
-
-
-	
-    <span class="leancloud_likes" id="/IT/front-end/it-jquery-selector/_likes" data-url="/IT/front-end/it-jquery-selector/" data-title="<Js> Jquery选择器介绍【原创】" rel="unlike">
-        <i class="icon-heart"></i>
-        喜欢
-        <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
-    </span>
-	
-
-					</p>
-				</div>
-			</div>
-		
-			<div class="post" id="post">
-				<a style="border:1px solid #e0e0e0" class="post-cover" href="/IT/linux/it-linux-zip/" title=" &lt;Linux&gt; linux下文件的压缩解压【原创】 " target="_self">
-					
-					<img class="lazy" src="https://s2.ax1x.com/2020/02/10/15r98s.gif" data-src="https://s2.ax1x.com/2019/12/20/QOZfLq.jpg" style="object-fit:cover">
-				</a>
-				<div class="post-text">
-					<p class="post-time">
-						十二月 18日, 2019
-					</p>	
-					<h3 class="post-title" id="post-title-index">
-						<a href="/IT/linux/it-linux-zip/" title="&lt;Linux&gt; linux下文件的压缩解压【原创】">							
-							
-	<a href="/IT/linux/it-linux-zip/" itemprop="url">
-		&lt;Linux&gt; linux下文件的压缩解压【原创】
-	</a>
-
-						</a>
-					</h3>
-					<p class="post-content">
-						
-							摘要：linux压缩命令示例
-						  
-
-
-						<!-- 
-							zip
-压缩  zip  -r wx_flask.zip wx_flask
-解压 unzip  wx_flask.zip
-
-tar.gz
-压缩  tar ...
-						 -->
-					</p>
-					<p class="post-meta">
-						
-
-	
-    <span class="leancloud_visitors" id="/IT/linux/it-linux-zip/_visitors" data-url="/IT/linux/it-linux-zip/" data-title="<Linux> linux下文件的压缩解压【原创】">
-       	<i class="icon-eye"></i>
-       	热度
-        
-            <i class="leancloud_visitors_count" id="leancloud_visitors_count">0</i>
-                   
-    </span>
-    
-
-
-
-	
-    <span class="leancloud_likes" id="/IT/linux/it-linux-zip/_likes" data-url="/IT/linux/it-linux-zip/" data-title="<Linux> linux下文件的压缩解压【原创】" rel="unlike">
         <i class="icon-heart"></i>
         喜欢
         <i class="leancloud_likes_count" id="leancloud_likes_count">0</i>
