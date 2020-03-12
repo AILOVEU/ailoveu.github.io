@@ -3112,7 +3112,7 @@ blockquote footer cite:before {
 }
 #navigation-hide p {
   text-align: center;
-  display: none;
+  display: block;
 }
 #progress-percentage {
   position: fixed;
