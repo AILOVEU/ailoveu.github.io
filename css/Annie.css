@@ -228,8 +228,10 @@ table {
   font-size: 1rem;
   table-layout: fixed;
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: inherit;
 /*min-width: 100%;*/
+  word-break: break-all;
+  width: 100%;
   margin-bottom: 1rem;
 }
 table thead tr {
@@ -3758,8 +3760,12 @@ audio {
   height: 54px;
 }
 html {
-  cursor: url("https://files.cnblogs.com/files/jilodream/1499563659.zip"), auto;
+  cursor: url("/img/cursor.jpg"), auto;
 }
 A {
-  cursor: url("https://files.cnblogs.com/files/jilodream/1499563659.zip"), auto;
+  cursor: url("/img/cursor.jpg"), auto;
+}
+.mzt-container {
+  max-width: 650px;
+  margin: 0 auto;
 }
