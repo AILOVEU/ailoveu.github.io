@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>AILOVEU</title>
+  <title>AI的谜底 | AILOVEU</title>
   
-  
+  <subtitle>个人博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://ailoveu.github.io/"/>
-  <updated>2020-04-04T04:35:03.574Z</updated>
-  <id>http://ailoveu.github.io/</id>
+  <link href="https://ailoveu.github.io/"/>
+  <updated>2020-04-08T14:47:15.293Z</updated>
+  <id>https://ailoveu.github.io/</id>
   
   <author>
     <name>Hy</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>网站更新说明</title>
-    <link href="http://ailoveu.github.io/hello-world/"/>
-    <id>http://ailoveu.github.io/hello-world/</id>
-    <published>2020-03-24T15:00:00.000Z</published>
-    <updated>2020-04-04T04:35:03.574Z</updated>
+    <link href="https://ailoveu.github.io/hello-world/"/>
+    <id>https://ailoveu.github.io/hello-world/</id>
+    <published>2021-01-01T15:00:00.000Z</published>
+    <updated>2020-04-08T14:47:15.293Z</updated>
     
-    <content type="html"><![CDATA[<p>网站更新记录：</p><table><thead><tr><th style="text-align:center">时间</th><th style="text-align:center">更新内容</th><th style="text-align:center">文件</th></tr></thead><tbody><tr><td style="text-align:center">2020/4/4</td><td style="text-align:center">myjs调整自执行函数，防止变量作用域冲突</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/3/31</td><td style="text-align:center">使用gulp压缩css、js、html</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/3/26</td><td style="text-align:center">统一了妹子图的样式 class=“lazy-img” class=“lazy-gif”</td><td style="text-align:center">Annie\source\ … \custom.styl</td></tr><tr><td style="text-align:center">2020/3/26</td><td style="text-align:center">table适配手机宽度</td><td style="text-align:center">source\css_base\base.styl - table:width:100%;word-break:break-all;英文换行</td></tr><tr><td style="text-align:center">2020/3/26</td><td style="text-align:center">实现pc端的刮刮乐效果，手机端暂不兼容</td><td style="text-align:center">myjs.js</td></tr><tr><td style="text-align:center">2020/3/24</td><td style="text-align:center">添加鼠标样式html cursor</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/2/27</td><td style="text-align:center">因为上一条的修改，需要让nav-trigger尽早出来</td><td style="text-align:center">Annie/source/js/main.js修改scrollLimitG为50</td></tr><tr><td style="text-align:center">2020/2/27</td><td style="text-align:center">只在首页展示fixbackground、load</td><td style="text-align:center">header.ejs,添加if(is_home)控制</td></tr><tr><td style="text-align:center">2020/2/27</td><td style="text-align:center">删除大部分不重要的文章</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/2/9</td><td style="text-align:center">修复audio不显示问题</td><td style="text-align:center">添加audio {改进dth:300px;height: 54px;}</td></tr><tr><td style="text-align:center">2020/2/9</td><td style="text-align:center">首次引入网易云音乐外联</td><td style="text-align:center">直接使用外联地址</td></tr><tr><td style="text-align:center">2020/2/4</td><td style="text-align:center">增加星空连线背景</td><td style="text-align:center">参考https://www.lvfan.xyz/等</td></tr><tr><td style="text-align:center">2020/2/4</td><td style="text-align:center">更换logo和链接指向</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/2/3</td><td style="text-align:center">增加刮刮乐图片能力</td><td style="text-align:center">参考http://www.fly63.com/article/detial/5788</td></tr><tr><td style="text-align:center">2020/1/30</td><td style="text-align:center">更改blockquote样式为#74B1DA</td><td style="text-align:center">Annie\source\ … \custom.styl</td></tr><tr><td style="text-align:center">2020/1/30</td><td style="text-align:center">添加myblockquote引用样式</td><td style="text-align:center">Annie\source\ … \base.stzyl</td></tr><tr><td style="text-align:center">2020/1/19</td><td style="text-align:center">添加mermaid支持</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/19</td><td style="text-align:center">文章内图片根据data-scr配置打开网页还是浏览图片</td><td style="text-align:center">Annie\layout\ …\post\gallery.ejs</td></tr><tr><td style="text-align:center">2020/1/18</td><td style="text-align:center">导航页图片添加外边框</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/14</td><td style="text-align:center">原创内容增加标识</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/14</td><td style="text-align:center">打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/10</td><td style="text-align:center">随机主页图片</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/10</td><td style="text-align:center">调整主页图片的显示比例</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/10</td><td style="text-align:center">配置主题喜欢、评论、访问统计、本地搜索功能</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/9</td><td style="text-align:center">更换新主题</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/8</td><td style="text-align:center">解决post页面不居中的问题</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2019/12/18</td><td style="text-align:center">解决首页文章在手机上显示异常的问题</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2019/12/17</td><td style="text-align:center">项目上线</td><td style="text-align:center"></td></tr></tbody></table><p>后期准备上线功能：</p><ul><li>改进刮刮乐手机上体验</li><li><s>只在首页展示fixbackground</s></li><li>可能会更换图床(现在的太慢了)</li><li>解决网速慢的情况下的鬼畜情况</li><li>名言展示生成截图</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>网站更新记录：</p><table><thead><tr><th style="text-align:center">时间</th><th style="text-align:center">更新内容</th><th style="text-align:center">文件</th></tr></thead><tbody><tr><td style="text-align:center">2020/4/4</td><td style="text-align:center">myjs调整自执行函数，防止变量作用域冲突</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/3/31</td><td style="text-align:center">使用gulp压缩css、js、html</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/3/26</td><td style="text-align:center">统一了妹子图的样式 class=“lazy-img” class=“lazy-gif”</td><td style="text-align:center">Annie\source\ … \custom.styl</td></tr><tr><td style="text-align:center">2020/3/26</td><td style="text-align:center">table适配手机宽度</td><td style="text-align:center">source\css_base\base.styl - table:width:100%;word-break:break-all;英文换行</td></tr><tr><td style="text-align:center">2020/3/26</td><td style="text-align:center">实现pc端的刮刮乐效果，手机端暂不兼容</td><td style="text-align:center">myjs.js</td></tr><tr><td style="text-align:center">2020/3/24</td><td style="text-align:center">添加鼠标样式html cursor</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/2/27</td><td style="text-align:center">因为上一条的修改，需要让nav-trigger尽早出来</td><td style="text-align:center">Annie/source/js/main.js修改scrollLimitG为50</td></tr><tr><td style="text-align:center">2020/2/27</td><td style="text-align:center">只在首页展示fixbackground、load</td><td style="text-align:center">header.ejs,添加if(is_home)控制</td></tr><tr><td style="text-align:center">2020/2/27</td><td style="text-align:center">删除大部分不重要的文章</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/2/9</td><td style="text-align:center">修复audio不显示问题</td><td style="text-align:center">添加audio {改进dth:300px;height: 54px;}</td></tr><tr><td style="text-align:center">2020/2/9</td><td style="text-align:center">首次引入网易云音乐外联</td><td style="text-align:center">直接使用外联地址</td></tr><tr><td style="text-align:center">2020/2/4</td><td style="text-align:center">增加星空连线背景</td><td style="text-align:center">参考https://www.lvfan.xyz/等</td></tr><tr><td style="text-align:center">2020/2/4</td><td style="text-align:center">更换logo和链接指向</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/2/3</td><td style="text-align:center">增加刮刮乐图片能力</td><td style="text-align:center">参考http://www.fly63.com/article/detial/5788</td></tr><tr><td style="text-align:center">2020/1/30</td><td style="text-align:center">更改blockquote样式为#74B1DA</td><td style="text-align:center">Annie\source\ … \custom.styl</td></tr><tr><td style="text-align:center">2020/1/30</td><td style="text-align:center">添加myblockquote引用样式</td><td style="text-align:center">Annie\source\ … \base.stzyl</td></tr><tr><td style="text-align:center">2020/1/19</td><td style="text-align:center">添加mermaid支持</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/19</td><td style="text-align:center">文章内图片根据data-scr配置打开网页还是浏览图片</td><td style="text-align:center">Annie\layout\ …\post\gallery.ejs</td></tr><tr><td style="text-align:center">2020/1/18</td><td style="text-align:center">导航页图片添加外边框</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/14</td><td style="text-align:center">原创内容增加标识</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/14</td><td style="text-align:center">打开categories、gallery（直接引用的，内容暂未编辑）、tags、about组件</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/10</td><td style="text-align:center">随机主页图片</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/10</td><td style="text-align:center">调整主页图片的显示比例</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/10</td><td style="text-align:center">配置主题喜欢、评论、访问统计、本地搜索功能</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/9</td><td style="text-align:center">更换新主题</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2020/1/8</td><td style="text-align:center">解决post页面不居中的问题</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2019/12/18</td><td style="text-align:center">解决首页文章在手机上显示异常的问题</td><td style="text-align:center"></td></tr><tr><td style="text-align:center">2019/12/17</td><td style="text-align:center">项目上线</td><td style="text-align:center"></td></tr></tbody></table><p>后期准备上线功能：</p><ul><li>改进刮刮乐手机上体验</li><li><s>只在首页展示fixbackground</s></li><li>可能会更换图床(现在的太慢了)</li><li><s>解决网速慢的情况下的鬼畜情况</s></li><li>名言展示生成截图</li><li>增加顶置组件</li><li>gulp压缩图片</li><li>增加时间轴样式</li></ul>]]></content>
     
     <summary type="html">
     
@@ -33,14 +33,39 @@
     
     
     
-      <category term="Other" scheme="http://ailoveu.github.io/tags/Other/"/>
+      <category term="Other" scheme="https://ailoveu.github.io/tags/Other/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;海阳现场秀&gt; 我的爱对你说</title>
+    <link href="https://ailoveu.github.io/pianke/pk-day5/"/>
+    <id>https://ailoveu.github.io/pianke/pk-day5/</id>
+    <published>2020-04-05T13:46:00.000Z</published>
+    <updated>2020-04-08T14:43:46.276Z</updated>
+    
+    <content type="html"><![CDATA[<p>海阳现场秀新出的节目板块，总觉得有故事的音乐更好听</p><p><audio controls="controls"  playsinline webkit-playsinline loop  autoplay="autoplay"><br><source src="/pianke/海阳现场秀20200405.mp3" type="audio/mpeg"><br></audio></p><span id="menu_index_1" name="menu_index_1"></p>  <div align="center"><p><a href="https://imgchr.com/i/lcL9qe" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2020/01/07/lcL9qe.md.jpg" alt="lcL9qe.md.jpg"></a></p>  </div>]]></content>
+    
+    <summary type="html">
+    
+      海阳现场秀，谁听谁皮肤白
+    
+    </summary>
+    
+    
+      <category term="片刻" scheme="https://ailoveu.github.io/categories/%E7%89%87%E5%88%BB/"/>
+    
+      <category term="海阳现场秀" scheme="https://ailoveu.github.io/categories/%E7%89%87%E5%88%BB/%E6%B5%B7%E9%98%B3%E7%8E%B0%E5%9C%BA%E7%A7%80/"/>
+    
+    
+      <category term="心情" scheme="https://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
   </entry>
   
   <entry>
     <title>&lt;影视&gt; 水浒一百单八将</title>
-    <link href="http://ailoveu.github.io/movie/WaterMargin/"/>
-    <id>http://ailoveu.github.io/movie/WaterMargin/</id>
+    <link href="https://ailoveu.github.io/movie/WaterMargin/"/>
+    <id>https://ailoveu.github.io/movie/WaterMargin/</id>
     <published>2020-02-09T15:32:00.000Z</published>
     <updated>2020-02-09T14:58:55.537Z</updated>
     
@@ -53,19 +78,19 @@
     </summary>
     
     
-      <category term="影视" scheme="http://ailoveu.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影视" scheme="https://ailoveu.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
     
     
-      <category term="水浒传" scheme="http://ailoveu.github.io/tags/%E6%B0%B4%E6%B5%92%E4%BC%A0/"/>
+      <category term="水浒传" scheme="https://ailoveu.github.io/tags/%E6%B0%B4%E6%B5%92%E4%BC%A0/"/>
     
-      <category term="四大名著" scheme="http://ailoveu.github.io/tags/%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97/"/>
+      <category term="四大名著" scheme="https://ailoveu.github.io/tags/%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97/"/>
     
   </entry>
   
   <entry>
     <title>&lt;妹子图&gt; 我把我整个的灵魂都给你</title>
-    <link href="http://ailoveu.github.io/goddess/goddess-day5/"/>
-    <id>http://ailoveu.github.io/goddess/goddess-day5/</id>
+    <link href="https://ailoveu.github.io/goddess/goddess-day5/"/>
+    <id>https://ailoveu.github.io/goddess/goddess-day5/</id>
     <published>2020-02-04T15:16:00.000Z</published>
     <updated>2020-03-26T15:03:38.819Z</updated>
     
@@ -78,19 +103,19 @@
     </summary>
     
     
-      <category term="妹子图" scheme="http://ailoveu.github.io/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/"/>
+      <category term="妹子图" scheme="https://ailoveu.github.io/categories/%E5%A6%B9%E5%AD%90%E5%9B%BE/"/>
     
     
-      <category term="福利" scheme="http://ailoveu.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
+      <category term="福利" scheme="https://ailoveu.github.io/tags/%E7%A6%8F%E5%88%A9/"/>
     
-      <category term="养眼" scheme="http://ailoveu.github.io/tags/%E5%85%BB%E7%9C%BC/"/>
+      <category term="养眼" scheme="https://ailoveu.github.io/tags/%E5%85%BB%E7%9C%BC/"/>
     
   </entry>
   
   <entry>
     <title>&lt;刮刮乐&gt; 不能太丧</title>
-    <link href="http://ailoveu.github.io/ggl/ggl-day2/"/>
-    <id>http://ailoveu.github.io/ggl/ggl-day2/</id>
+    <link href="https://ailoveu.github.io/ggl/ggl-day2/"/>
+    <id>https://ailoveu.github.io/ggl/ggl-day2/</id>
     <published>2020-02-03T12:16:00.000Z</published>
     <updated>2020-03-27T15:01:57.068Z</updated>
     
@@ -103,17 +128,17 @@
     </summary>
     
     
-      <category term="刮刮乐" scheme="http://ailoveu.github.io/categories/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
+      <category term="刮刮乐" scheme="https://ailoveu.github.io/categories/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
     
     
-      <category term="刮刮乐" scheme="http://ailoveu.github.io/tags/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
+      <category term="刮刮乐" scheme="https://ailoveu.github.io/tags/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>&lt;镇馆之宝&gt; 懦夫表白墙</title>
-    <link href="http://ailoveu.github.io/zgzb/qtmdrs/"/>
-    <id>http://ailoveu.github.io/zgzb/qtmdrs/</id>
+    <link href="https://ailoveu.github.io/zgzb/qtmdrs/"/>
+    <id>https://ailoveu.github.io/zgzb/qtmdrs/</id>
     <published>2020-02-01T05:32:00.000Z</published>
     <updated>2020-02-01T04:23:38.327Z</updated>
     
@@ -126,19 +151,19 @@
     </summary>
     
     
-      <category term="镇馆之宝" scheme="http://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
+      <category term="镇馆之宝" scheme="https://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
     
     
-      <category term="再来亿遍" scheme="http://ailoveu.github.io/tags/%E5%86%8D%E6%9D%A5%E4%BA%BF%E9%81%8D/"/>
+      <category term="再来亿遍" scheme="https://ailoveu.github.io/tags/%E5%86%8D%E6%9D%A5%E4%BA%BF%E9%81%8D/"/>
     
-      <category term="海绵宝宝" scheme="http://ailoveu.github.io/tags/%E6%B5%B7%E7%BB%B5%E5%AE%9D%E5%AE%9D/"/>
+      <category term="海绵宝宝" scheme="https://ailoveu.github.io/tags/%E6%B5%B7%E7%BB%B5%E5%AE%9D%E5%AE%9D/"/>
     
   </entry>
   
   <entry>
     <title>&lt;体育&gt; 竞技比赛规则之美【原创】</title>
-    <link href="http://ailoveu.github.io/sport/gameroles/"/>
-    <id>http://ailoveu.github.io/sport/gameroles/</id>
+    <link href="https://ailoveu.github.io/sport/gameroles/"/>
+    <id>https://ailoveu.github.io/sport/gameroles/</id>
     <published>2020-01-30T13:46:00.000Z</published>
     <updated>2020-03-27T13:05:47.482Z</updated>
     
@@ -151,21 +176,21 @@
     </summary>
     
     
-      <category term="体育" scheme="http://ailoveu.github.io/categories/%E4%BD%93%E8%82%B2/"/>
+      <category term="体育" scheme="https://ailoveu.github.io/categories/%E4%BD%93%E8%82%B2/"/>
     
     
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
     
-      <category term="体育" scheme="http://ailoveu.github.io/tags/%E4%BD%93%E8%82%B2/"/>
+      <category term="体育" scheme="https://ailoveu.github.io/tags/%E4%BD%93%E8%82%B2/"/>
     
-      <category term="长知识" scheme="http://ailoveu.github.io/tags/%E9%95%BF%E7%9F%A5%E8%AF%86/"/>
+      <category term="长知识" scheme="https://ailoveu.github.io/tags/%E9%95%BF%E7%9F%A5%E8%AF%86/"/>
     
   </entry>
   
   <entry>
     <title>&lt;影视&gt; 三国历史轨迹【转载】</title>
-    <link href="http://ailoveu.github.io/movie/ThreeKingdomsEra/"/>
-    <id>http://ailoveu.github.io/movie/ThreeKingdomsEra/</id>
+    <link href="https://ailoveu.github.io/movie/ThreeKingdomsEra/"/>
+    <id>https://ailoveu.github.io/movie/ThreeKingdomsEra/</id>
     <published>2020-01-28T15:32:00.000Z</published>
     <updated>2020-02-28T06:38:57.792Z</updated>
     
@@ -178,21 +203,21 @@
     </summary>
     
     
-      <category term="影视" scheme="http://ailoveu.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影视" scheme="https://ailoveu.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
     
     
-      <category term="三国演义" scheme="http://ailoveu.github.io/tags/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/"/>
+      <category term="三国演义" scheme="https://ailoveu.github.io/tags/%E4%B8%89%E5%9B%BD%E6%BC%94%E4%B9%89/"/>
     
-      <category term="四大名著" scheme="http://ailoveu.github.io/tags/%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97/"/>
+      <category term="四大名著" scheme="https://ailoveu.github.io/tags/%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97/"/>
     
-      <category term="转载" scheme="http://ailoveu.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
+      <category term="转载" scheme="https://ailoveu.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
     
   </entry>
   
   <entry>
     <title>&lt;资源&gt; 分享给大家一些常用的网站【原创】</title>
-    <link href="http://ailoveu.github.io/tools/share/"/>
-    <id>http://ailoveu.github.io/tools/share/</id>
+    <link href="https://ailoveu.github.io/tools/share/"/>
+    <id>https://ailoveu.github.io/tools/share/</id>
     <published>2020-01-27T09:00:00.000Z</published>
     <updated>2020-01-30T07:09:28.347Z</updated>
     
@@ -205,25 +230,25 @@
     </summary>
     
     
-      <category term="资源" scheme="http://ailoveu.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+      <category term="资源" scheme="https://ailoveu.github.io/categories/%E8%B5%84%E6%BA%90/"/>
     
     
-      <category term="更新中" scheme="http://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+      <category term="更新中" scheme="https://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
     
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
     
-      <category term="资源" scheme="http://ailoveu.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+      <category term="资源" scheme="https://ailoveu.github.io/tags/%E8%B5%84%E6%BA%90/"/>
     
-      <category term="分享" scheme="http://ailoveu.github.io/tags/%E5%88%86%E4%BA%AB/"/>
+      <category term="分享" scheme="https://ailoveu.github.io/tags/%E5%88%86%E4%BA%AB/"/>
     
-      <category term="网站" scheme="http://ailoveu.github.io/tags/%E7%BD%91%E7%AB%99/"/>
+      <category term="网站" scheme="https://ailoveu.github.io/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
   <entry>
     <title>&lt;每日一禅&gt;  我消失的那段时间</title>
-    <link href="http://ailoveu.github.io/daily-meditation/mryc-day8/"/>
-    <id>http://ailoveu.github.io/daily-meditation/mryc-day8/</id>
+    <link href="https://ailoveu.github.io/daily-meditation/mryc-day8/"/>
+    <id>https://ailoveu.github.io/daily-meditation/mryc-day8/</id>
     <published>2020-01-23T10:22:00.000Z</published>
     <updated>2020-02-27T06:59:15.587Z</updated>
     
@@ -236,19 +261,19 @@
     </summary>
     
     
-      <category term="每日一禅" scheme="http://ailoveu.github.io/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
+      <category term="每日一禅" scheme="https://ailoveu.github.io/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
     
     
-      <category term="心情" scheme="http://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="https://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="每日一禅" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
+      <category term="每日一禅" scheme="https://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
     
   </entry>
   
   <entry>
     <title>&lt;镇馆之宝&gt; My All</title>
-    <link href="http://ailoveu.github.io/zgzb/myall/"/>
-    <id>http://ailoveu.github.io/zgzb/myall/</id>
+    <link href="https://ailoveu.github.io/zgzb/myall/"/>
+    <id>https://ailoveu.github.io/zgzb/myall/</id>
     <published>2020-01-20T13:32:00.000Z</published>
     <updated>2020-02-27T07:56:35.264Z</updated>
     
@@ -261,21 +286,21 @@
     </summary>
     
     
-      <category term="镇馆之宝" scheme="http://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
+      <category term="镇馆之宝" scheme="https://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
     
     
-      <category term="B站" scheme="http://ailoveu.github.io/tags/B%E7%AB%99/"/>
+      <category term="B站" scheme="https://ailoveu.github.io/tags/B%E7%AB%99/"/>
     
-      <category term="影视" scheme="http://ailoveu.github.io/tags/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影视" scheme="https://ailoveu.github.io/tags/%E5%BD%B1%E8%A7%86/"/>
     
-      <category term="起风了" scheme="http://ailoveu.github.io/tags/%E8%B5%B7%E9%A3%8E%E4%BA%86/"/>
+      <category term="起风了" scheme="https://ailoveu.github.io/tags/%E8%B5%B7%E9%A3%8E%E4%BA%86/"/>
     
   </entry>
   
   <entry>
     <title>&lt;影视&gt; 红楼梦人物关系【原创】</title>
-    <link href="http://ailoveu.github.io/movie/TheStoryOfTheStone/"/>
-    <id>http://ailoveu.github.io/movie/TheStoryOfTheStone/</id>
+    <link href="https://ailoveu.github.io/movie/TheStoryOfTheStone/"/>
+    <id>https://ailoveu.github.io/movie/TheStoryOfTheStone/</id>
     <published>2020-01-19T15:32:00.000Z</published>
     <updated>2020-02-09T14:44:49.687Z</updated>
     
@@ -288,21 +313,21 @@
     </summary>
     
     
-      <category term="影视" scheme="http://ailoveu.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影视" scheme="https://ailoveu.github.io/categories/%E5%BD%B1%E8%A7%86/"/>
     
     
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
     
-      <category term="红楼梦" scheme="http://ailoveu.github.io/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"/>
+      <category term="红楼梦" scheme="https://ailoveu.github.io/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/"/>
     
-      <category term="四大名著" scheme="http://ailoveu.github.io/tags/%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97/"/>
+      <category term="四大名著" scheme="https://ailoveu.github.io/tags/%E5%9B%9B%E5%A4%A7%E5%90%8D%E8%91%97/"/>
     
   </entry>
   
   <entry>
     <title>&lt;效率&gt; utools【原创】</title>
-    <link href="http://ailoveu.github.io/tools/tools-utools/"/>
-    <id>http://ailoveu.github.io/tools/tools-utools/</id>
+    <link href="https://ailoveu.github.io/tools/tools-utools/"/>
+    <id>https://ailoveu.github.io/tools/tools-utools/</id>
     <published>2020-01-17T16:00:00.000Z</published>
     <updated>2020-02-27T06:56:57.914Z</updated>
     
@@ -315,19 +340,19 @@
     </summary>
     
     
-      <category term="工具" scheme="http://ailoveu.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://ailoveu.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
     
-      <category term="效率" scheme="http://ailoveu.github.io/tags/%E6%95%88%E7%8E%87/"/>
+      <category term="效率" scheme="https://ailoveu.github.io/tags/%E6%95%88%E7%8E%87/"/>
     
   </entry>
   
   <entry>
     <title>&lt;每日一禅&gt;  我们必须全力以赴</title>
-    <link href="http://ailoveu.github.io/daily-meditation/mryc-day7/"/>
-    <id>http://ailoveu.github.io/daily-meditation/mryc-day7/</id>
+    <link href="https://ailoveu.github.io/daily-meditation/mryc-day7/"/>
+    <id>https://ailoveu.github.io/daily-meditation/mryc-day7/</id>
     <published>2020-01-16T10:22:00.000Z</published>
     <updated>2020-02-01T04:31:07.860Z</updated>
     
@@ -340,19 +365,19 @@
     </summary>
     
     
-      <category term="每日一禅" scheme="http://ailoveu.github.io/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
+      <category term="每日一禅" scheme="https://ailoveu.github.io/categories/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
     
     
-      <category term="心情" scheme="http://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="https://ailoveu.github.io/tags/%E5%BF%83%E6%83%85/"/>
     
-      <category term="每日一禅" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
+      <category term="每日一禅" scheme="https://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E7%A6%85/"/>
     
   </entry>
   
   <entry>
     <title>&lt;电影截图&gt; 四重奏</title>
-    <link href="http://ailoveu.github.io/movie-capture/dyjt-scz/"/>
-    <id>http://ailoveu.github.io/movie-capture/dyjt-scz/</id>
+    <link href="https://ailoveu.github.io/movie-capture/dyjt-scz/"/>
+    <id>https://ailoveu.github.io/movie-capture/dyjt-scz/</id>
     <published>2020-01-15T15:32:00.000Z</published>
     <updated>2020-02-27T06:58:20.173Z</updated>
     
@@ -365,19 +390,19 @@
     </summary>
     
     
-      <category term="电影截图" scheme="http://ailoveu.github.io/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/"/>
+      <category term="电影截图" scheme="https://ailoveu.github.io/categories/%E7%94%B5%E5%BD%B1%E6%88%AA%E5%9B%BE/"/>
     
     
-      <category term="四重奏" scheme="http://ailoveu.github.io/tags/%E5%9B%9B%E9%87%8D%E5%A5%8F/"/>
+      <category term="四重奏" scheme="https://ailoveu.github.io/tags/%E5%9B%9B%E9%87%8D%E5%A5%8F/"/>
     
-      <category term="日剧" scheme="http://ailoveu.github.io/tags/%E6%97%A5%E5%89%A7/"/>
+      <category term="日剧" scheme="https://ailoveu.github.io/tags/%E6%97%A5%E5%89%A7/"/>
     
   </entry>
   
   <entry>
     <title>&lt;理财&gt; 适合所有人的理财方案【原创】</title>
-    <link href="http://ailoveu.github.io/finance/AIP/"/>
-    <id>http://ailoveu.github.io/finance/AIP/</id>
+    <link href="https://ailoveu.github.io/finance/AIP/"/>
+    <id>https://ailoveu.github.io/finance/AIP/</id>
     <published>2020-01-14T12:00:00.000Z</published>
     <updated>2020-02-28T10:23:02.330Z</updated>
     
@@ -390,25 +415,25 @@
     </summary>
     
     
-      <category term="理财" scheme="http://ailoveu.github.io/categories/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="https://ailoveu.github.io/categories/%E7%90%86%E8%B4%A2/"/>
     
     
-      <category term="理财" scheme="http://ailoveu.github.io/tags/%E7%90%86%E8%B4%A2/"/>
+      <category term="理财" scheme="https://ailoveu.github.io/tags/%E7%90%86%E8%B4%A2/"/>
     
-      <category term="基金" scheme="http://ailoveu.github.io/tags/%E5%9F%BA%E9%87%91/"/>
+      <category term="基金" scheme="https://ailoveu.github.io/tags/%E5%9F%BA%E9%87%91/"/>
     
-      <category term="定投" scheme="http://ailoveu.github.io/tags/%E5%AE%9A%E6%8A%95/"/>
+      <category term="定投" scheme="https://ailoveu.github.io/tags/%E5%AE%9A%E6%8A%95/"/>
     
-      <category term="更新中" scheme="http://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+      <category term="更新中" scheme="https://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
     
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
     
   </entry>
   
   <entry>
     <title>&lt;镇馆之宝&gt; 黄磊早期作品</title>
-    <link href="http://ailoveu.github.io/zgzb/xinbaodao/"/>
-    <id>http://ailoveu.github.io/zgzb/xinbaodao/</id>
+    <link href="https://ailoveu.github.io/zgzb/xinbaodao/"/>
+    <id>https://ailoveu.github.io/zgzb/xinbaodao/</id>
     <published>2020-01-13T05:32:00.000Z</published>
     <updated>2020-02-01T04:23:45.855Z</updated>
     
@@ -421,19 +446,19 @@
     </summary>
     
     
-      <category term="镇馆之宝" scheme="http://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
+      <category term="镇馆之宝" scheme="https://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
     
     
-      <category term="再来亿遍" scheme="http://ailoveu.github.io/tags/%E5%86%8D%E6%9D%A5%E4%BA%BF%E9%81%8D/"/>
+      <category term="再来亿遍" scheme="https://ailoveu.github.io/tags/%E5%86%8D%E6%9D%A5%E4%BA%BF%E9%81%8D/"/>
     
-      <category term="新宝岛" scheme="http://ailoveu.github.io/tags/%E6%96%B0%E5%AE%9D%E5%B2%9B/"/>
+      <category term="新宝岛" scheme="https://ailoveu.github.io/tags/%E6%96%B0%E5%AE%9D%E5%B2%9B/"/>
     
   </entry>
   
   <entry>
     <title>&lt;体育&gt; 棒球基础知识普及【原创】</title>
-    <link href="http://ailoveu.github.io/sport/baseball/"/>
-    <id>http://ailoveu.github.io/sport/baseball/</id>
+    <link href="https://ailoveu.github.io/sport/baseball/"/>
+    <id>https://ailoveu.github.io/sport/baseball/</id>
     <published>2020-01-12T13:46:00.000Z</published>
     <updated>2020-02-27T06:57:19.522Z</updated>
     
@@ -446,27 +471,27 @@
     </summary>
     
     
-      <category term="体育" scheme="http://ailoveu.github.io/categories/%E4%BD%93%E8%82%B2/"/>
+      <category term="体育" scheme="https://ailoveu.github.io/categories/%E4%BD%93%E8%82%B2/"/>
     
     
-      <category term="更新中" scheme="http://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+      <category term="更新中" scheme="https://ailoveu.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
     
-      <category term="原创" scheme="http://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+      <category term="原创" scheme="https://ailoveu.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
     
-      <category term="体育" scheme="http://ailoveu.github.io/tags/%E4%BD%93%E8%82%B2/"/>
+      <category term="体育" scheme="https://ailoveu.github.io/tags/%E4%BD%93%E8%82%B2/"/>
     
-      <category term="棒球" scheme="http://ailoveu.github.io/tags/%E6%A3%92%E7%90%83/"/>
+      <category term="棒球" scheme="https://ailoveu.github.io/tags/%E6%A3%92%E7%90%83/"/>
     
-      <category term="长知识" scheme="http://ailoveu.github.io/tags/%E9%95%BF%E7%9F%A5%E8%AF%86/"/>
+      <category term="长知识" scheme="https://ailoveu.github.io/tags/%E9%95%BF%E7%9F%A5%E8%AF%86/"/>
     
-      <category term="棒球大联盟" scheme="http://ailoveu.github.io/tags/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F/"/>
+      <category term="棒球大联盟" scheme="https://ailoveu.github.io/tags/%E6%A3%92%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F/"/>
     
   </entry>
   
   <entry>
     <title>&lt;刮刮乐&gt; 柯南这首片尾曲的歌词</title>
-    <link href="http://ailoveu.github.io/ggl/ggl-day1/"/>
-    <id>http://ailoveu.github.io/ggl/ggl-day1/</id>
+    <link href="https://ailoveu.github.io/ggl/ggl-day1/"/>
+    <id>https://ailoveu.github.io/ggl/ggl-day1/</id>
     <published>2020-01-12T12:16:00.000Z</published>
     <updated>2020-02-03T04:28:40.166Z</updated>
     
@@ -479,21 +504,21 @@
     </summary>
     
     
-      <category term="刮刮乐" scheme="http://ailoveu.github.io/categories/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
+      <category term="刮刮乐" scheme="https://ailoveu.github.io/categories/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
     
     
-      <category term="刮刮乐" scheme="http://ailoveu.github.io/tags/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
+      <category term="刮刮乐" scheme="https://ailoveu.github.io/tags/%E5%88%AE%E5%88%AE%E4%B9%90/"/>
     
-      <category term="柯南" scheme="http://ailoveu.github.io/tags/%E6%9F%AF%E5%8D%97/"/>
+      <category term="柯南" scheme="https://ailoveu.github.io/tags/%E6%9F%AF%E5%8D%97/"/>
     
-      <category term="每日一冷" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/"/>
+      <category term="每日一冷" scheme="https://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/"/>
     
   </entry>
   
   <entry>
     <title>&lt;镇馆之宝&gt; 起风了-港影演员群像</title>
-    <link href="http://ailoveu.github.io/zgzb/qifengle/"/>
-    <id>http://ailoveu.github.io/zgzb/qifengle/</id>
+    <link href="https://ailoveu.github.io/zgzb/qifengle/"/>
+    <id>https://ailoveu.github.io/zgzb/qifengle/</id>
     <published>2020-01-09T05:32:00.000Z</published>
     <updated>2020-01-10T12:36:59.789Z</updated>
     
@@ -506,39 +531,14 @@
     </summary>
     
     
-      <category term="镇馆之宝" scheme="http://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
+      <category term="镇馆之宝" scheme="https://ailoveu.github.io/categories/%E9%95%87%E9%A6%86%E4%B9%8B%E5%AE%9D/"/>
     
     
-      <category term="B站" scheme="http://ailoveu.github.io/tags/B%E7%AB%99/"/>
+      <category term="B站" scheme="https://ailoveu.github.io/tags/B%E7%AB%99/"/>
     
-      <category term="影视" scheme="http://ailoveu.github.io/tags/%E5%BD%B1%E8%A7%86/"/>
+      <category term="影视" scheme="https://ailoveu.github.io/tags/%E5%BD%B1%E8%A7%86/"/>
     
-      <category term="起风了" scheme="http://ailoveu.github.io/tags/%E8%B5%B7%E9%A3%8E%E4%BA%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&lt;每日一冷&gt; 兔美酱的名推理</title>
-    <link href="http://ailoveu.github.io/happy/happy-day1/"/>
-    <id>http://ailoveu.github.io/happy/happy-day1/</id>
-    <published>2020-01-08T13:32:00.000Z</published>
-    <updated>2020-01-10T12:36:59.757Z</updated>
-    
-    <content type="html"><![CDATA[  <div align="center"><p><img src="https://s2.ax1x.com/2020/01/08/lRCXuj.png" alt="lRCXuj.png"></p>  </div>]]></content>
-    
-    <summary type="html">
-    
-      无
-    
-    </summary>
-    
-    
-      <category term="段子" scheme="http://ailoveu.github.io/categories/%E6%AE%B5%E5%AD%90/"/>
-    
-    
-      <category term="每日一冷" scheme="http://ailoveu.github.io/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%86%B7/"/>
-    
-      <category term="日和" scheme="http://ailoveu.github.io/tags/%E6%97%A5%E5%92%8C/"/>
+      <category term="起风了" scheme="https://ailoveu.github.io/tags/%E8%B5%B7%E9%A3%8E%E4%BA%86/"/>
     
   </entry>
   
